@@ -36,7 +36,7 @@ const DOCS = [
   {file:'33_第二批图像生成与验收记录.md',title:'第二批图像与验收',kind:'生图与检查'},
   {file:'34_第三批图像与用户反馈.md',title:'第三批图像与用户反馈',kind:'生图与检查'}
 ];
-const cache = new Map(Object.entries(window.XBL_BUNDLED_DOCS||{}));
+const cache = new Map(Object.entries(JSON.parse(document.querySelector('#content-cache')?.textContent||'{}')));
 let docRequestId=0,searchRequestId=0;
 const views = [...document.querySelectorAll('.view')];
 const navButtons = [...document.querySelectorAll('[data-view], [data-doc]')];

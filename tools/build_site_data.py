@@ -31,4 +31,12 @@ cache='window.XBL_BUNDLED_DOCS='+json.dumps(bundle,ensure_ascii=False,separators
 for base in [D/'site']:
     (base/'assets/search-index-v064.json').write_text(index)
     (base/'content-cache-v064.js').write_text(cache)
+    page=base/'index.html'
+    html=page.read_text().replace('  <script src="./content-cache-v064.js" defer></script>\n','').replace('./app.js?v=064"','./app.js?v=064-2"')
+    block='<script id="content-cache" type="application/json">'+json.dumps(bundle,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+'</script>'
+    if '<script id="content-cache"' in html:
+        html=re.sub(r'<script id="content-cache" type="application/json">.*?</script>',lambda _:block,html,flags=re.S)
+    else:
+        html=html.replace('  <script src="./data-loader.js', '  '+block+'\n  <script src="./data-loader.js',1)
+    page.write_text(html)
 print(json.dumps({'search_entries':len(search),'unique_docs':len(items),'bundled_docs':len(bundle),'cache_bytes':len(cache.encode()),'search_bytes':len(index.encode())},ensure_ascii=False))
