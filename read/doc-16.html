@@ -1,0 +1,55 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="小白龙同志历险记，作品、记忆与创作计划的逐页阅读版。"><meta name="robots" content="noindex,follow"><title>成年比例基准与参考用法 · 小白龙同志历险记</title><link rel="icon" href="../site/favicon-32.png"><link rel="stylesheet" href="reading.css"></head><body><a class="skip" href="#content">跳到正文</a><header><a class="brand" href="index.html"><img width="42" height="42" src="../site/assets/brand/white-dragon.svg" alt="">小白龙同志<span>历险记 · 生活档案</span></a><a href="../site/index.html">交互版 ↗</a></header><nav aria-label="全站导航"><a href="index.html">目录</a><a href="gallery.html">作品</a><a href="memories.html">共同记忆</a><a href="plans.html">下一轮计划</a><a href="library.html">资料与规范</a></nav><main id="content"><p class="eyebrow">资料与规范 / 逐页阅读</p><article class="article"><h1>成年比例基准与参考用法</h1>
+<p>更新：2026-10-19｜本轮设计提案</p>
+<h2>参考分工</h2>
+<table>
+<thead>
+<tr>
+<th>参考</th>
+<th>使用范围</th>
+<th>不继承</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ID01 夜路主视觉</td>
+<td>既定成年脸、银白短发、淡紫眼与二次元气质</td>
+<td>其他题材不自动复制夜路、碎花裙或回眸</td>
+</tr>
+<tr>
+<td>B03 BODY01 白模</td>
+<td>成年胸廓骨盆、腰髋与四肢体积、自然关节；辅助体块与关节，用户已认可可用</td>
+<td>3D白材质、工作服、纹理角、尖耳、发饰</td>
+</tr>
+<tr>
+<td>B02 TURN01 三视图</td>
+<td>等高正侧背、头身与肩腰膝踝位置校准</td>
+<td>其他服装题材不自动复制夹克、裙袜与鞋包</td>
+</tr>
+<tr>
+<td>穿搭参考</td>
+<td>该图指定单品与廓形、材质和色彩关系</td>
+<td>真人脸、发型和不同模特身高腿长</td>
+</tr>
+<tr>
+<td>P01 动作参考</td>
+<td>第二张泳装的前倾抬头方向</td>
+<td>长发、蓝眼、其他角色脸和泳衣；本轮尚未生图</td>
+</tr>
+</tbody></table>
+<h2>尺寸工作提案</h2>
+<p>以用户高度认可的B02三视图全身轮廓为首，白模仅辅助体块与关节，成年净足约6.5头身，平视直立对齐时约6.3至6.7头身的工作容差。保持已经认可的成年脸与健康身体体积，不用幼态化来缩短比例。</p>
+<p>厘米净身高暂提案162厘米，尚未获用户数字确认。没有现实标尺的图像不能反推出准确厘米。若以后修改身高，统一改比例卡、白模和三视图，不让每套衣服各设一个身高。</p>
+<p>从头顶向下的辅助刻度：下巴1H，肩线约1.3H，腰线约2.35H，骨盆中心约3H，裆约3.25H，膝中心约4.45H，踝约6.05H，净足地面6.5H。这些是本轮辅助设计提案，遮挡处不是精密实测值。学生/幼年不适用。</p>
+<h2>量测边界与本次问题</h2>
+<p>当前图像头顶被头发遮住，不能精确定位骨点。本轮以主发团顶至下巴作可见轮廓近似，排除呆毛与角；含鞋底时会增加表观头身比。B02约6.8头身含厚底，B03约6.4头身赤足，鞋底和发量解释了部分差异。T05 v01约8头身，即使扣除鞋底仍明显偏长。v02/v03有改善但仍未通过；不得写成已经统一到6.5。</p>
+<p><a href="../research/%E6%88%90%E5%B9%B4%E4%BD%93%E6%80%81%E6%AF%94%E4%BE%8B%E5%9F%BA%E5%87%86.json">原始估点记录</a>；<a href="../research/%E6%88%90%E5%B9%B4%E6%AF%94%E4%BE%8B%E5%AF%B9%E7%85%A7_%E5%9B%9B%E5%9B%BE.webp">等高对照图</a>。对照只做裁取、等比缩放与辅助线，不拉伸原角色，不是修改后的作品。</p>
+<h2>以后每批怎么用</h2>
+<ol>
+<li>先以B02全身模板为首、B03辅助对齐身体，确认净足头身、胸廓骨盆和大腿小腿关系，再换衣服、摆动作、放环境。</li>
+<li>头部只跟随身份图；衣服案例不提供新模特骨架。提示词与参考职责已写入production/prompt_specs.py并重建34条。</li>
+<li>区分净身高和鞋跟鞋底，比较图像时先统一地面与头顶，避免只看画布占比、裙腰或高跟靴。</li>
+<li>弯腰、坐姿、透视会改变投影高度，按同一骨架与关节检查，不能机械要求每张画面投影均为6.5。</li>
+<li>每个人形每个视图检查两手、两腿、两脚与骨盆膝踝连接；侧面和遮挡不额外补肢体。家居显示角尾，外出可以隐藏。</li>
+</ol>
+<h2>用户最新纠正：三视图为首，不加粗小腿</h2>
+<p>用户指出T05修订版小腿过粗、快与大腿一样粗。此项未通过，不能以体块更厚冒充比例正确。用户强调B02三视图全身比例很好很好，必须直接复用。后续先处理上衣长度是否盖胯、腰节是否错位、牛仔长裁片是否连成过长纵线，以及靴筒和裙摆的分段；保持B02大腿膝小腿脚踝的轮廓。量测数字仅为校验，不能机械凑数改变已经认可的身体。</p>
+</article><nav class="pager"><a href="library.html">← 返回目录</a><a href="../16_%E6%88%90%E5%B9%B4%E6%AF%94%E4%BE%8B%E5%9F%BA%E5%87%86%E4%B8%8E%E5%8F%82%E8%80%83%E7%94%A8%E6%B3%95.md">阅读 Markdown 原文</a></nav></main><footer><a href="index.html">返回目录</a><p>从已经保存的原文和影像记录生成。真实经历、共同创作与未来设定沿用来源标注。网页图片是浏览副本，原图保留在本地。</p></footer></body></html>

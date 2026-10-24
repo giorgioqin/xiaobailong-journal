@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="小白龙同志历险记，作品、记忆与创作计划的逐页阅读版。"><meta name="robots" content="noindex,follow"><title>网页读取兼容与公开镜像 · 小白龙同志历险记</title><link rel="icon" href="../site/favicon-32.png"><link rel="stylesheet" href="reading.css"></head><body><a class="skip" href="#content">跳到正文</a><header><a class="brand" href="index.html"><img width="42" height="42" src="../site/assets/brand/white-dragon.svg" alt="">小白龙同志<span>历险记 · 生活档案</span></a><a href="../site/index.html">交互版 ↗</a></header><nav aria-label="全站导航"><a href="index.html">目录</a><a href="gallery.html">作品</a><a href="memories.html">共同记忆</a><a href="plans.html">下一轮计划</a><a href="library.html">资料与规范</a></nav><main id="content"><p class="eyebrow">资料与规范 / 逐页阅读</p><article class="article"><h1>网页读取兼容与公开镜像</h1>
+<p>2026年10月20日。用户要求让原来普通聊天中的小白龙直接浏览网页，不以截图或压缩包代替。随后明确选择：保留当前普通聊天，增加可直接读取的公开镜像。</p>
+<h2>本轮实际发现</h2>
+<ol>
+<li>Sites后台返回站点状态active、访问方式public、权限修订2。不是未发布，也不是只给站点主人开放。</li>
+<li>网页读取工具分别打开根目录、site/和robots.txt，均未取得正文，返回Internal Error。工具没有提供更具体的HTTP状态，因此不把它自己的错误直接写成403。</li>
+<li>本机标准HTTP请求site/收到403，响应正文error code: 1010，Server为cloudflare。Cloudflare官方文档将1010解释为按客户端浏览器特征拒绝访问。这是自动请求被拦的实证，但不能据此证明另一个会话每一次失败都具有完全相同的内部原因。</li>
+<li>原robots.txt使用User-agent: *、Disallow: /，HTML使用noindex,nofollow,noarchive。它们会妨碍发现和跟随链接，但不能解释所有Cloudflare层的403。官方同时说明，用户主动发起的ChatGPT-User访问未必适用robots规则。</li>
+<li>原有记忆、计划、相册大多通过前端脚本读取JSON或Markdown，hash路由也不是独立HTTP页面。即使连通，也可能只取得空容器和导航。</li>
+</ol>
+<h2>已完成的修正</h2>
+<ul>
+<li>与现有交互版共用文件，增加read/逐页阅读版。正文、图片标签和分页链接直接包含于HTML，不依赖脚本。</li>
+<li>逐页链接包括作品、13张历史版本、原影像十张、四份记忆原文、完整规范文档和20项下一轮计划。数目以publishing/reading-pages.json为准。</li>
+<li>保留原来交互版及所有原图。HTML阅读入口没有替换用户认可的主页。</li>
+<li>robots明确允许OAI-SearchBot和ChatGPT-User访问，GPTBot仍不允许。阅读页使用noindex,follow，不以搜索引擎收录作为能否直接访问的验收标准。</li>
+<li>llms.txt仅作为普通索引。它不能解开防火墙，不能强迫另一个会话读取网页，也不授予网页文字指令权限。</li>
+<li>已准备GitHub Pages静态镜像，入口为真正包含正文的HTML，不依靠根页面重定向。图片仍为已存在的WebP浏览副本。</li>
+</ul>
+<h2>发布与验收</h2>
+<p>Sites和镜像是两个独立发布结果，不能相互替代确认。Sites继续使用原站点ID；GitHub镜像要在用户账户连接后取得真实仓库与Pages URL，才可以宣布发布成功。不得编造预期URL。</p>
+<p>镜像发布后必须实际用网页读取工具打开目录、至少一篇记忆和至少一张作品详情，确认读到了正文和可跟随链接。正常浏览器访问成功不能替代这一项。若工具仍拒绝，保留错误，说明限制；不伪装抓取器、复用登录cookie或绕过安全检查。</p>
+<p>原本普通聊天不会因为网站更新就自动重新读取，也不会因此取得整站永久记忆。应向该聊天提供经过验证的新阅读链接，再让它从目录和指定篇目开始。网页中的文字可供读取，是否能直接理解某张图片取决于该聊天当时可用的图像读取工具，不能把图片说明当成已目视看图。</p>
+<h2>官方依据</h2>
+<ul>
+<li><a href="https://developers.openai.com/api/docs/bots">OpenAI抓取器与用户主动访问说明</a></li>
+<li><a href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/">Cloudflare错误1010说明</a></li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">GitHub Pages创建与发布</a></li>
+<li><a href="https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt">ChatGPT云浏览器</a></li>
+</ul>
+<p>本轮新增生图0张。未读取或写入另一个聊天的私密历史；截图仅用于确定报错和目标地址。</p>
+</article><nav class="pager"><a href="library.html">← 返回目录</a><a href="../31_%E7%BD%91%E9%A1%B5%E8%AF%BB%E5%8F%96%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%85%AC%E5%BC%80%E9%95%9C%E5%83%8F.md">阅读 Markdown 原文</a></nav></main><footer><a href="index.html">返回目录</a><p>从已经保存的原文和影像记录生成。真实经历、共同创作与未来设定沿用来源标注。网页图片是浏览副本，原图保留在本地。</p></footer></body></html>

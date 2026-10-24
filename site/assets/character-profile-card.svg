@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">白恬虚构角色设定卡 · 非身份证</title>
+<desc id="desc">一张原创横向角色资料卡，左侧是白恬的动漫肖像，右侧列出虚构角色尺度与外观设定。不是身份证或其他官方身份凭证。</desc>
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcfbff"/><stop offset=".56" stop-color="#eeebf6"/><stop offset="1" stop-color="#f8f5fb"/></linearGradient>
+ <linearGradient id="photo" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e7e5ed"/><stop offset="1" stop-color="#d7d2e1"/></linearGradient>
+ <clipPath id="portraitClip"><rect x="64" y="158" width="238" height="316" rx="12"/></clipPath>
+ <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#9488aa" opacity=".12"/></pattern>
+</defs>
+<rect x="1" y="1" width="958" height="598" rx="28" fill="url(#paper)" stroke="#d3ccdf" stroke-width="2"/>
+<rect x="1" y="1" width="958" height="598" rx="28" fill="url(#dots)"/>
+<circle cx="866" cy="398" r="112" fill="#dcd6e9" opacity=".2"/><circle cx="892" cy="120" r="80" fill="#d7dced" opacity=".24"/>
+<path d="M45 101H915" stroke="#d5cfdf" stroke-width="1.5"/>
+<g font-family="PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif" fill="#4b4658">
+ <text x="64" y="57" font-size="15" letter-spacing="3" fill="#766b8a">小白龙档案　·　角色设定</text>
+ <text x="64" y="85" font-size="11" letter-spacing="2" fill="#9b93a8">CHARACTER PROFILE　/　VISUAL REFERENCE</text>
+</g>
+<g transform="translate(690 34)"><rect width="214" height="45" rx="9" fill="#756789"/><text x="107" y="19" text-anchor="middle" font-family="PingFang SC,Hiragino Sans GB,sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#fff">虚构道具 · 非身份证</text><text x="107" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.5" fill="#eee9f5">FICTIONAL PROP · NOT AN ID</text></g>
+<rect x="58" y="152" width="250" height="328" rx="17" fill="#fff" opacity=".8" stroke="#d8d2e2"/>
+<rect x="64" y="158" width="238" height="316" rx="12" fill="url(#photo)"/>
+<image x="64" y="158" width="238" height="316" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" href="../../images/generated/B07_档案照风格肖像_v01.png" xlink:href="../../images/generated/B07_档案照风格肖像_v01.png"/>
+<g font-family="PingFang SC,Hiragino Sans GB,sans-serif">
+ <text x="346" y="174" font-size="12" letter-spacing="2" fill="#8b819c">小白龙同志　/　虚构角色</text>
+ <text x="342" y="229" font-size="43" font-weight="600" fill="#33303d">白恬</text>
+ <text x="347" y="254" font-size="12" fill="#777182">银白短发　·　淡紫眼　·　成年设定</text>
+ <g fill="#777182" font-size="11">
+  <text x="348" y="296">视觉年龄</text><text x="590" y="296">身高</text>
+  <text x="348" y="361">体重 · 肩宽</text><text x="590" y="361">胸 · 腰 · 臀</text>
+  <text x="348" y="426">内侧腿长 · 鞋码</text><text x="590" y="426">发色 · 瞳色</text>
+ </g>
+ <g fill="#413c4d" font-size="20" font-weight="500">
+  <text x="348" y="326">23 岁</text><text x="590" y="326">162 cm</text>
+  <text x="348" y="391">50 kg · 36 cm</text><text x="590" y="391">84 · 62 · 88 cm</text>
+  <text x="348" y="456">75 cm · 37</text><text x="590" y="456">银白 · 淡紫</text>
+ </g>
+ <text x="348" y="505" font-size="10" letter-spacing="1.2" fill="#857b95">设定编号　XBL-23-BT</text>
+</g>
+<path d="M64 526H896" stroke="#d5cfdf" stroke-width="1.5"/>
+<g font-family="PingFang SC,Hiragino Sans GB,sans-serif" fill="#827b8e"><text x="64" y="558" font-size="11" letter-spacing="1">原创角色资料卡　·　不对应任何真实身份</text><text x="896" y="558" text-anchor="end" font-size="10" letter-spacing="1.3">FOR CHARACTER DESIGN ONLY</text></g>
+<g fill="none" stroke="#998dac" stroke-width="1.4" opacity=".65"><circle cx="866" cy="164" r="17"/><path d="M866 137v54M839 164h54"/></g>
+</svg>

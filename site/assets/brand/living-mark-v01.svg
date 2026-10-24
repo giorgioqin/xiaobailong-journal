@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">小白龙同志标志</title>
+  
+<rect x="1" y="1" width="94" height="94" rx="24" fill="#6f4b9c" stroke="#6f4b9c" stroke-width="1.5"/>
+  <path d="M27 39c-7-6-10-12-6-18 4-5 7-7 6-13 9 7 12 13 8 19-3 5-2 8 1 11Z" fill="#ffffff"/>
+  <path d="M69 39c7-6 10-12 6-18-4-5-7-7-6-13-9 7-12 13-8 19 3 5 2 8-1 11Z" fill="#ffffff"/>
+  <path d="M26 36c7-7 16-8 23-4 10-6 22-2 27 8 7 12 5 24-3 33-6 7-15 11-25 11-12 0-22-5-28-15-6-11-4-23 6-33Z" fill="#ffffff"/>
+  <path d="M27 36c1 8-3 14-11 18 7 1 12-1 16-5m16-17c-2 9-7 17-15 21 9 0 14-4 18-10 4 7 10 10 18 10-6-5-9-11-9-19" fill="#ffffff"/>
+  <path d="M33 33c-5 8-9 12-14 14m33-14c2-8 7-10 11-6" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 56c5-3 10-3 15-1m13 0c4-2 8-2 12 0" fill="none" stroke="#6f4b9c" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M30 59c3-1 6-1 9 0-1 4-2 6-5 6-3 0-4-2-4-6Zm27 0c3-1 6-1 9 0-1 4-2 6-5 6-3 0-4-2-4-6Z" fill="#6f4b9c"/>
+  <path d="M43 72c5 2 9 1 12-2" fill="none" stroke="#6f4b9c" stroke-width="2" stroke-linecap="round"/>
+</svg>

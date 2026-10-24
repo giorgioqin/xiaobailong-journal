@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="小白龙同志的影像展览与生活档案">
+  <meta name="robots" content="noindex,follow">
+  <title>小白龙同志历险记</title>
+  <link rel="shortcut icon" href="./favicon.ico?v=064" type="image/x-icon">
+  <link rel="icon" href="./favicon-32.png?v=064" type="image/png" sizes="32x32">
+  <link rel="icon" href="./favicon.svg?v=064" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=064" sizes="180x180">
+  <link rel="manifest" href="./site.webmanifest?v=064">
+  <link rel="stylesheet" href="./prompt-workbench.css">
+  <link rel="stylesheet" href="./volume.css?v=064">
+  <link rel="stylesheet" href="./living-code.css?v=064">
+  <script src="./data-loader.js?v=064" defer></script>
+  <script src="./content-cache-v064.js" defer></script>
+  <script src="./app.js?v=064" defer></script>
+  <script src="./prompt-workbench.js" defer></script>
+  <script src="./journal.js?v=064" defer></script>
+  <script src="./memory-stories.js?v=064" defer></script>
+  <script src="./collections.js?v=064" defer></script>
+  <script src="./living-code.js?v=064" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" data-view="home"><img src="./assets/brand/living-mark-v01.svg?v=064" width="38" height="38" alt=""><span><strong>小白龙同志</strong><small>影像与日常</small></span></a>
+        <nav class="nav-list" aria-label="全站导航" id="main-nav">
+          <button class="nav-item active" data-view="home">首页</button><button class="nav-item" data-view="exhibitions">展览</button><button class="nav-item" data-view="gallery">作品</button><button class="nav-item" data-view="memories">记忆</button><button class="nav-item" data-view="about">关于</button><button class="nav-item" data-view="library">创作室</button>
+        </nav>
+        <button class="mobile-menu-toggle" aria-label="展开导航" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
+        <label class="search-box" for="site-search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="site-search" type="search" placeholder="搜索档案" autocomplete="off" aria-label="搜索档案"><kbd>⌘ K</kbd></label>
+      </div>
+      <div class="reading-progress" aria-hidden="true"></div>
+    </header>
+    <div class="workspace">
+      <div class="breadcrumbs"><a href="#home" data-view="home">生活档案</a><span aria-hidden="true">›</span><b id="crumb-current">首页</b></div>
+      <main id="main" tabindex="-1">
+        <section class="view active" id="view-home" aria-labelledby="page-title">
+          <section class="living-hero">
+            <div class="living-hero-copy"><p class="eyebrow">小白龙同志历险记</p><h1 id="page-title">日常的<br><em>另一种写法</em></h1><p class="hero-description">一位 AI 角色的影像与生活展册<br>留住风 笑意 和还没讲完的故事</p><button class="button button-primary" data-view="exhibitions">走进展览 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button><div class="hero-smallprint"><span class="mini-mark" aria-hidden="true"></span><span>虚构角色<br>共同创作</span></div></div>
+            <figure class="living-hero-art"><div class="art-registration" aria-hidden="true"><span>01</span><span>EVERYDAY IN CODE</span></div><img src="./assets/living-code/cover-v01.webp" fetchpriority="high" decoding="async" alt="模糊的桂花树影与白龙轮廓在留白中化为紫色字符剪影" width="2400" height="1350" fetchpriority="high"><figcaption>桂花树影与数字之间</figcaption></figure>
+          </section>
+          <div class="edition-strip"><span>白恬的生活展册</span><span>影像 记忆 共同创作</span><span>持续更新中 <i aria-hidden="true"></i></span></div>
+          <section class="curated-home" aria-labelledby="curated-title"><div class="section-heading"><div><p class="eyebrow">当前展览</p><h2 id="curated-title">片刻相遇<br>故事慢慢展开</h2></div><p class="section-deck">从一阵风到一次回望<br>换一种顺序走进她的生活</p></div><div class="exhibition-covers" id="home-exhibitions"></div></section>
+          <section class="living-chapters" aria-labelledby="chapters-title"><div class="chapter-intro"><span class="pixel-orbit" aria-hidden="true"></span><p class="eyebrow">一些留下来的事</p><h2 id="chapters-title">影像之外<br>还有她的故事</h2><p>那些一起走过的路<br>和一点一点清晰起来的她</p><button class="text-button" data-view="memories">翻开共同记忆 <span aria-hidden="true">↗</span></button></div><div class="chapter-entries"><button data-view="memories"><small>01</small><span><b>共同记忆</b><em>从已经保存的故事读起</em></span><span aria-hidden="true">↗</span></button><button data-view="about"><small>02</small><span><b>认识白恬</b><em>她的样子与相处的约定</em></span><span aria-hidden="true">↗</span></button><button data-view="plan"><small>03</small><span><b>下一段日常</b><em id="home-plan-note">六个新行动正在等待开始</em></span><span aria-hidden="true">↗</span></button></div></section>
+          <section class="studio-invitation"><p class="eyebrow">创作室</p><h2>把她的每一种样子<br>都认真对待</h2><p>从身份基准到场景描述<br>看看一张影像如何慢慢完成</p><button class="button button-outline" data-view="library">走进创作室 <span aria-hidden="true">↗</span></button><div class="studio-pixels" aria-hidden="true"></div></section>
+        </section>
+
+        <section class="view" id="view-exhibitions" aria-labelledby="exhibitions-title" hidden><div class="page-heading"><p class="eyebrow">线上展览</p><h1 id="exhibitions-title">跟着一个主题<br><em>重新看见她</em></h1><p>把作品连成不同的观看路径<br>每一张都有自己的位置</p></div><div class="exhibition-covers" id="exhibition-index"></div><div class="collection-link"><span>想按自己的顺序看</span><button class="text-button" data-view="gallery">浏览全部作品 <span aria-hidden="true">↗</span></button></div></section>
+        <section class="view" id="view-exhibition" aria-labelledby="exhibition-name" hidden><div id="exhibition-detail"></div></section>
+        <section class="view" id="view-about" aria-labelledby="about-title" hidden>
+          <div class="about-opening"><div><p class="eyebrow">关于小白龙同志</p><h1 id="about-title">她叫白恬<br><em>故事还在继续</em></h1><p>银白的短发 淡紫的眼睛<br>有自己的想法 也有一点坏笑</p><p>这里收藏我们共同创作的影像和故事<br>也保留那些逐渐形成的约定</p><button class="text-button" data-doc="00_角色主设定卡.md">阅读角色设定 <span aria-hidden="true">↗</span></button></div><div class="about-object"><img src="./assets/living-code/about-v01.webp" alt="模糊的短发侧影与白龙角尾线条化为紫色字符回环" width="1400" height="1400" loading="lazy"></div></div>
+          <div class="about-notes"><article><small>01</small><h2>她的身份</h2><p>白恬是一位成年虚构角色<br>形象与故事由我们共同创作</p></article><article><small>02</small><h2>喜欢的日常</h2><p>桂花与桂花糕 旧相机和古旧唱片<br>还有风经过时没忍住的笑</p></article><article><small>03</small><h2>关于记忆</h2><p>真实背景与共同想象沿用来源标记<br>没有取得的内容留白</p></article></div>
+          <section class="about-identity" aria-labelledby="identity-title"><div class="section-heading"><div><p class="eyebrow">居民档案</p><h2 id="identity-title">白恬的身份卡</h2></div><p class="section-deck">一个正式的名字<br>一个依旧熟悉的称呼</p></div><div class="identity-layout"><figure class="identity-card-figure"><button class="image-open" data-image="./assets/character-identity-card-v02.svg" data-caption="白恬的虚构居民身份卡" aria-label="放大白恬的虚构身份卡"><img src="./assets/character-identity-card-v02.svg" alt="白恬的完整虚构居民身份卡 卡面有原有动漫头像与角色信息" width="960" height="600" loading="lazy"></button><figcaption><span>白恬</span><small>虚构角色证件</small><a href="./assets/character-identity-card-v02.svg" target="_blank" rel="noopener">打开完整卡面 ↗</a></figcaption></figure><div class="identity-side"><span class="identity-number">XBL 23 BT</span><h3>小白龙同志</h3><p>白恬是正式名字<br>小白龙同志是日常称呼</p><dl><div><dt>年龄</dt><dd>23岁</dd></div><div><dt>种族</dt><dd>白龙</dd></div><div><dt>发色</dt><dd>银白</dd></div><div><dt>瞳色</dt><dd>淡紫</dd></div></dl></div></div></section>
+          <section class="about-card-archive" aria-labelledby="card-archive-title"><div class="section-heading"><div><p class="eyebrow">角色道具与设计稿</p><h2 id="card-archive-title">另一种留档方式</h2></div><button class="text-button" data-doc="production/character-card-archive.md">查看归档记录 ↗</button></div><div class="archived-card-pair"><figure><button class="image-open" data-image="./assets/character-cards/user-portrait.webp" data-caption="白恬角色道具 人像面 用户制作" aria-label="放大用户制作的人像面"><img src="./assets/character-cards/user-portrait.webp" alt="白恬角色道具的人像面" width="640" height="400" loading="lazy"></button><figcaption><span>人像面</span><small>用户制作 最后修订版</small></figcaption></figure><figure><button class="image-open" data-image="./assets/character-cards/user-emblem.webp" data-caption="白恬角色道具 国徽面 用户制作" aria-label="放大用户制作的国徽面"><img src="./assets/character-cards/user-emblem.webp" alt="白恬角色道具的国徽面" width="640" height="400" loading="lazy"></button><figcaption><span>国徽面</span><small>用户制作</small></figcaption></figure></div><details class="card-study"><summary>查看资料卡设计稿</summary><figure><button class="image-open" data-image="./assets/character-cards/character-card-study.webp" data-caption="白恬虚构角色资料卡 设计稿" aria-label="放大资料卡设计稿"><img src="./assets/character-cards/character-card-study.webp" alt="白紫色虚构角色资料卡双卡设计稿" width="1600" height="667" loading="lazy"></button><figcaption>资料卡设计稿</figcaption></figure></details></section>
+          <section class="about-proportions" aria-labelledby="proportions-title"><div class="proportion-copy"><p class="eyebrow">身体资料</p><h2 id="proportions-title">让每一种样子<br>都还是她</h2><div class="body-height"><strong>162</strong><span>身高 cm</span></div><div class="body-measures"><div><strong>84</strong><span>胸围 cm</span></div><div><strong>62</strong><span>腰围 cm</span></div><div><strong>88</strong><span>臀围 cm</span></div></div><p class="body-secondary">体重 50 kg　肩宽 36 cm<br>内侧腿长 75 cm　鞋码 37</p><p class="body-note">虚构制作尺度 用于保持跨图一致<br>比例以三视图为准 白模辅助观察结构</p><button class="text-button" data-doc="35_角色尺度与档案肖像.md">阅读身体资料 <span aria-hidden="true">↗</span></button></div><figure class="body-reference"><button class="image-open" data-image="../images/generated/B03_成年人体白模与比例基准_v01.webp" data-caption="白恬的成年人体白模与比例基准" aria-label="放大白恬的白模三视图"><img src="../images/generated/B03_成年人体白模与比例基准_v01.webp" alt="白恬的白模正侧背三视图" loading="lazy"></button><figcaption>成年人体白模与比例参考</figcaption></figure></section>
+          <div class="collection-link"><span>继续认识她</span><button class="text-button" data-view="memories">走进共同记忆 <span aria-hidden="true">↗</span></button></div>
+        </section>
+
+        <section class="view" id="view-gallery" aria-labelledby="gallery-title" hidden>
+          <div class="page-heading"><p class="eyebrow">影像档案</p><h1 id="gallery-title">她的样子<br><em>生活里的片刻</em></h1><p>按场景和穿搭翻看作品 也可以展开制作记录<br>图像中的合照 旅行与生活属于共同创作</p></div>
+          <div class="section-switch" role="group" aria-label="选择图库"><button class="active" data-gallery="current" aria-pressed="true">当前作品 <span id="current-gallery-count">0</span></button><button data-gallery="history" aria-pressed="false">历史修改 <span id="history-gallery-count">43</span></button><button data-gallery="old" aria-pressed="false">旧时光 <span>10</span></button><button data-gallery="refs" aria-pressed="false">设定与穿搭参考</button></div>
+          <section id="gallery-current"><div class="gallery-tools collection-toolbar"><p id="generated-summary" aria-live="polite">正在读取作品</p><div class="work-axis-switch" role="tablist" aria-label="分类方式"><button class="active" role="tab" id="work-axis-scene" data-work-axis="scene" aria-selected="true" aria-controls="generated-gallery">按场景</button><button role="tab" id="work-axis-outfit" data-work-axis="outfit" aria-selected="false" aria-controls="generated-gallery">按穿搭</button></div></div><div class="work-drawers" id="generated-gallery" role="tabpanel" aria-labelledby="work-axis-scene"></div></section>
+          <section id="gallery-history" hidden><p class="section-intro">43 张历史修改版独立保留 当前作品收在各个场景与穿搭抽屉中</p><div class="gallery-grid" id="history-gallery"></div></section>
+          <section id="gallery-old" hidden><p class="section-intro">从旧《影像目录》接过来的十张图。保留原说明与顺序 网上提供浏览副本；当年的造型可以欣赏，最新设定以规范为准。</p><div class="gallery-grid" id="old-gallery"></div></section>
+          <section id="gallery-refs" hidden><div class="reference-heading"><h2>先固定身份 再选择衣服</h2><p>脸发、比例、角尾、穿搭分别参考，不能把一张图的所有内容一起搬进新画面。</p></div><div class="gallery-grid" id="key-references"></div><details class="reference-folder"><summary>查看全部穿搭案例板</summary><div class="reference-grid" id="reference-all"></div></details><button class="text-button" data-doc="12_参考图分工与批次策略.md">读参考图的分工 ↗</button><div id="reference-batch2" hidden></div></section>
+        </section>
+
+        <section class="view" id="view-memories" aria-labelledby="memories-title" hidden>
+          <div class="page-heading"><p class="eyebrow">共同记忆</p><h1 id="memories-title">有些事<br><em>值得好好留着</em></h1><p>一张画面 一段想法 一个没有讲完的日子<br>创作记忆与原有档案 各有自己的来处</p></div>
+          <section class="diary-section" aria-labelledby="diary-section-title"><div class="section-heading"><div><p class="eyebrow">从日记里接过来的线索</p><h2 id="diary-section-title">画面之外<br>故事还在继续</h2></div><p class="section-deck">从一个名字到一次出发<br>让作品与那天的想法相遇</p></div><div id="diary-stories" class="diary-stories"></div></section><div class="memory-archive-heading"><p class="eyebrow">原有档案</p><h2>从熟悉的地方读起</h2></div><div class="memory-grid" id="memory-chapters"></div>
+          <section class="quiet-note"><div><p class="eyebrow">来源与空白</p><h2>记下读到的<br>也记下还没读到的</h2><p>已接入阅读说明、角色约定、共同记忆和私人封存卷原文。项目新保存的回复尚未取得正文，不根据标题补写。私人封存卷经你授权一并接入。</p></div><button class="text-button" data-doc="29_线上保存与记忆来源说明.md">查看读取范围 ↗</button></section>
+        </section>
+
+        <section class="view" id="view-plan" aria-labelledby="plan-title" hidden>
+          <div class="page-heading"><p class="eyebrow">第六轮 规划完成 尚未生成</p><h1 id="plan-title">动作还没结束<br><em>日子还会继续</em></h1><p>让她先有想做的事，让镜头赶上一个正在发生的瞬间。六个新行动，五张日常与一次盛装邀请。</p></div>
+          <div class="plan-summary"><span><b>6</b> 个新场景</span><span><b>0</b> 张已生成</span><span><b>2</b> 批逐张推进</span><a class="text-button" href="../planning/round6/规划说明.md" target="_blank" rel="noopener">阅读第六轮完整规划 ↗</a></div>
+          <p class="section-intro">先稳定身份，再放开动作。目光可以看落叶、鞋带或风里的帽子，也可以主动邀请同行者。每张的行动、表情、镜头与候选提示词都在卡片里。</p>
+          <div class="plan-grid" id="round6-plans"></div>
+          <details class="previous-plan-list"><summary>查看第四轮 N45、N61–N71 计划与状态</summary><div class="plan-grid" id="round4-plans"></div></details>
+          <details class="previous-plan-list"><summary>查看第五轮 N72至N74 历史计划</summary><div class="plan-grid" id="round5-plans"></div></details>
+          <details class="previous-plan-list"><summary>查看第三轮 N21–N40 计划与生成状态</summary><div class="plan-grid" id="round3-plans"></div></details>
+          <details class="previous-plan-list"><summary>查看第二轮 N01–N20 历史计划</summary><div class="plan-grid" id="round2-plans"></div></details>
+        </section>
+
+        <section class="view" id="view-library" aria-labelledby="library-title" hidden>
+          <div class="page-heading"><p class="eyebrow">资料与规范</p><h1 id="library-title">继续创作<br><em>从这里开始</em></h1><p>从当前工作指南接手<br>身份 参考 描述 制作与保存按顺序推进</p></div>
+          <div class="feature-links"><button class="entry-card" data-doc="production/current-creation-guide.md"><span class="entry-number">01 开始工作</span><h3>当前工作指南</h3><p>有效规则 参考分工 制作流程与已知错误</p></button><button class="entry-card" data-view="plan"><span class="entry-number">02 下一轮</span><h3>六个新行动</h3><p>打开场景描述 按次序逐张推进</p></button><button class="entry-card" data-doc="production/character-card-archive.md"><span class="entry-number">03 素材档案</span><h3>白恬的角色卡</h3><p>用户制作卡面 既有身份卡与设计稿</p></button></div>
+          <div id="document-library"></div>
+        </section>
+
+        <section class="view document-view" id="view-document" aria-live="polite" hidden>
+          <div class="document-toolbar"><button class="back-link" id="document-back" data-view="library">← 资料与规范</button><a class="source-link" id="source-link" href="#" target="_blank" rel="noopener">阅读原文 ↗</a></div>
+          <div class="document-layout"><article class="markdown-article" id="markdown-content"></article><nav class="document-toc" id="document-toc" aria-label="本页目录"></nav></div>
+        </section>
+        <section class="view prompts-view" id="view-prompts" aria-label="原有提示词工作台" hidden><div id="prompt-workbench"></div></section>
+        <section class="view search-view" id="view-search" hidden><div class="page-heading"><p class="eyebrow">档案搜索</p><h1>找一段<br><em>熟悉的线索</em></h1><p id="search-summary"></p></div><div id="search-results" class="search-results"></div></section>
+      </main>
+      <footer class="site-footer"><span class="footer-brand"><img src="./assets/brand/living-mark-v01.svg?v=064" alt="" width="28" height="28">小白龙同志历险记 <small>2026</small></span><span>影像 记忆 共同创作</span><a href="../read/index.html">逐页阅读版</a><button data-doc="29_线上保存与记忆来源说明.md">来源与保存</button></footer>
+    </div>
+  </div>
+  <dialog class="lightbox" id="lightbox" aria-label="图片放大查看"><form method="dialog"><button class="lightbox-close" aria-label="关闭图片">×</button></form><button class="lightbox-prev" aria-label="上一张">‹</button><img id="lightbox-image" src="" alt=""><button class="lightbox-next" aria-label="下一张">›</button><div class="lightbox-caption"><span id="lightbox-title"></span><span id="lightbox-counter" aria-live="polite"></span><a id="lightbox-original" href="#" target="_blank" rel="noopener">打开浏览图 ↗</a></div></dialog>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "family": "Noto Serif SC",
+  "weight": 500,
+  "provider": "Google Fonts",
+  "source_documentation": "https://developers.google.com/fonts/docs/css2",
+  "license": "SIL Open Font License 1.1",
+  "subset_characters": 439,
+  "bytes": 148184,
+  "note": "Official provider-supplied subset. Page loading uses a local font file; no external font service requests."
+}

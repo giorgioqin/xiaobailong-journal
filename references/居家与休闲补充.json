@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "id": "H01",
+      "path": "images/居家休闲补充/H01_浅蓝开衫与灰色家居套装.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "home",
+      "duplicate": false,
+      "sha256": "8c85e1235c6993231f9fddfcf10276d69445c6aef9f7244f38921acc5e3a52c9",
+      "original_sha256": "3e0c701f06269e90e6219ada76ece47e3dc7514e0341df6e520ac04407b4b08e",
+      "original_path": "images/居家休闲补充/H01_浅蓝开衫与灰色家居套装.png",
+      "display_derivative": true
+    },
+    {
+      "id": "H02",
+      "path": "images/居家休闲补充/H02_碎花睡衣背面.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "home",
+      "duplicate": false,
+      "sha256": "b8aebe57094c66cbff5250746660144b9993a6c3db9a31b550ec2d3ece20b6ca",
+      "original_sha256": "382136d4ef0c576b0909703f40cfdb4561e30aeae10461a5fffcf48049640603",
+      "original_path": "images/居家休闲补充/H02_碎花睡衣背面.png",
+      "display_derivative": true
+    },
+    {
+      "id": "H03",
+      "path": "images/居家休闲补充/H03_碎花睡衣正面.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "home",
+      "duplicate": false,
+      "sha256": "6bcd1df0947afad0c100f850023cedacde5f92ddb69a3b557a0d98574a3a3cda",
+      "original_sha256": "4df15bd6fbf916ce32a6fe8325ca9e8dda4d7762ae58c2a41453a976a07ed23d",
+      "original_path": "images/居家休闲补充/H03_碎花睡衣正面.png",
+      "display_derivative": true
+    },
+    {
+      "id": "H04",
+      "path": "images/居家休闲补充/H04_轻薄背心与格纹家居短裤.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "home",
+      "duplicate": false,
+      "sha256": "a4b499407a8ca2e79db3636fca4845e8180e2b2823a0c0d051cddfa258a1983b",
+      "original_sha256": "f49987d238284de7ab24b9d21f07b500e1fa27c89d28083745cef94b0587cc45",
+      "original_path": "images/居家休闲补充/H04_轻薄背心与格纹家居短裤.png",
+      "display_derivative": true
+    },
+    {
+      "id": "H05",
+      "path": "images/居家休闲补充/H04_轻薄背心与格纹家居短裤.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "home",
+      "duplicate": true,
+      "sha256": "a4b499407a8ca2e79db3636fca4845e8180e2b2823a0c0d051cddfa258a1983b",
+      "original_sha256": "f49987d238284de7ab24b9d21f07b500e1fa27c89d28083745cef94b0587cc45",
+      "original_path": "images/居家休闲补充/H04_轻薄背心与格纹家居短裤.png",
+      "display_derivative": true
+    },
+    {
+      "id": "C01",
+      "path": "images/居家休闲补充/C01_宽松休闲与层次.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "casual",
+      "duplicate": false,
+      "sha256": "3ad74349158e63683fdfdfe96d9164a54f0277f5efbda6e4d4166ec49b44d0bb",
+      "original_sha256": "5d2c440c6391cd079220a0eb5f2d94175b0938c393d918c2106205c6a6caa6d8",
+      "original_path": "images/居家休闲补充/C01_宽松休闲与层次.png",
+      "display_derivative": true
+    },
+    {
+      "id": "C02",
+      "path": "images/居家休闲补充/C02_简洁夏日休闲.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "casual",
+      "duplicate": false,
+      "sha256": "0c01fa47085d18f266f8a84632faa1258562be73f3d6feb65a6ad60f750f5b64",
+      "original_sha256": "fa31e24a9dbe01fee4234bee932be7c72d4bddd837aca8cfed15f1d74aae5961",
+      "original_path": "images/居家休闲补充/C02_简洁夏日休闲.png",
+      "display_derivative": true
+    },
+    {
+      "id": "C03",
+      "path": "images/居家休闲补充/C03_松弛针织与自然裙裤.webp",
+      "role": "仅参考服装与场景适配，不转移真人脸、发型、身体或自拍构图",
+      "kind": "casual",
+      "duplicate": false,
+      "sha256": "fd0a5c08d537fb26d9ebca31a7e0c768573cc0ea22f3895fd3313e400eb9dfe9",
+      "original_sha256": "a628305dff7016746d8855b18a5d821779576d7dd714eae3b80408144f827980",
+      "original_path": "images/居家休闲补充/C03_松弛针织与自然裙裤.png",
+      "display_derivative": true
+    }
+  ],
+  "note": "用户补充睡衣与休闲参考；穿搭不用每套都用力，按场景选择。"
+}

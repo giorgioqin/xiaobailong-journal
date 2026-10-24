@@ -1,0 +1,167 @@
+{
+  "checked": "2026-10-19",
+  "sources": [
+    {
+      "id": "C01",
+      "title": "CLIP STUDIO：角色模型表",
+      "url": "https://www.clipstudio.net/how-to-draw/archives/164740",
+      "kind": "创作者教程",
+      "observed": "目录分为构造、头部转面、全身转面、色彩、表情、姿势；用共同导引线匹配角度。",
+      "adopted": "B01/B02/B04分开编写；等高、同基线、同眼线，表情用大头像。",
+      "limits": "已读公开正文；具体布局为本项目转化。"
+    },
+    {
+      "id": "C02",
+      "title": "SHIKIZAKURA：官方三面图",
+      "url": "https://shikizakura-anime.com/news/149/",
+      "kind": "动画官方发布",
+      "observed": "官方为7名角色分别发布三面图。",
+      "adopted": "B02只核对正侧背结构、同服装与发型后部。",
+      "limits": "部分原图CDN超时；仅确认官方正文与图注，不假称已读高清细节。"
+    },
+    {
+      "id": "C03",
+      "title": "Disney Animation：Visual Development",
+      "url": "https://www.disneyanimation.com/process/visual-development/",
+      "kind": "工作室制作流程",
+      "observed": "公开展示服装开发、model sheet、角色poses、环境与色彩脚本等不同工作。",
+      "adopted": "基础验证页和生活主题图分别承担任务；每张主题图有行为、情绪和环境。",
+      "limits": "借用工作分工与叙事方法，不迁入迪士尼三维外观。"
+    },
+    {
+      "id": "C04",
+      "title": "Riot：Illaoi in Project L",
+      "url": "https://www.riotgames.com/en/news/dev-illaoi-in-project-l",
+      "kind": "游戏开发团队文章",
+      "observed": "先定义角色核心，再探索视觉与运动；文中使用运动研究并解释身形与动作来源。",
+      "adopted": "先保存小白龙核心，再换装；姿势写承重和正在进行的动作，服装服务活动。",
+      "limits": "参考文章发布于2022年；这里研究制作方法，不把旧项目名当当前产品状态。"
+    },
+    {
+      "id": "C05",
+      "title": "Santa Monica：Ragnarök服装指南",
+      "url": "https://blog.playstation.com/2023/01/26/from-concept-art-to-cosplay-creating-iconic-characters-for-god-of-war-ragnarok/",
+      "kind": "官方角色概念访谈",
+      "observed": "指南含角色图、局部细节、武器/配件；访谈说明保留旧识别元素并让服装变化表达经历。",
+      "adopted": "B06做服装结构与材质拆解；衣橱保留身份锚点，每套配件有理由。",
+      "limits": "不复制其战斗装或世界观；本项目多为日常私服。"
+    },
+    {
+      "id": "C06",
+      "title": "CLIP STUDIO：3D Character Design Tools",
+      "url": "https://www.clipstudio.net/en/characterart/tool/3d/",
+      "kind": "软件官方工具说明",
+      "observed": "提供人体绘画参考、姿势和多视角工作工具。",
+      "adopted": "B03与B02写清摄像方向、成人结构和承重点；之后可选用工具检验姿态。",
+      "limits": "只核实功能页，未安装软件或声称已做3D工程。"
+    },
+    {
+      "id": "C07",
+      "title": "Proko：Balanced Poses",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-balanced-poses/",
+      "kind": "创作者人体教学",
+      "observed": "解释胸腔、骨盆与支撑点的平衡，区分静态平衡和运动瞬间。",
+      "adopted": "站姿写承重腿；坐姿写坐垫受压与手臂支撑；走路写前后脚过程。",
+      "limits": "采用一般结构原则，不据此锁定小白龙精确体型。"
+    },
+    {
+      "id": "C08",
+      "title": "Disney Animation：Look Development",
+      "url": "https://www.disneyanimation.com/process/look-development/",
+      "kind": "工作室制作流程",
+      "observed": "展示材料分层、头发整理、服装缝线和饰件，以及模型到光照的分解。",
+      "adopted": "每套写出布重、针织、接缝与反射差异；白模保留统一哑光，减少材料干扰。",
+      "limits": "只取材料说明完整度，不改变二维角色媒介。"
+    },
+    {
+      "id": "C09",
+      "title": "黄金神威：官方角色设定画",
+      "url": "https://kamuy-anime.com/news/index00190000.html",
+      "kind": "动画官方发布",
+      "observed": "分别发布杉元、阿席莉帕、白石的角色设定图。",
+      "adopted": "人物身份、服装和道具各有档案；服装正背结构不能只靠一张正面。",
+      "limits": "不复制民族装饰、服装或具体角色。"
+    },
+    {
+      "id": "C10",
+      "title": "京阿尼：弦音2官方设定集",
+      "url": "https://kyoanishop.com/view/item/000000003508",
+      "kind": "官方出版目录",
+      "observed": "商品说明含角色设定、小物设定与美术设定，A4纵向、全彩正文98页。",
+      "adopted": "除人物外安排收藏物、厨房、书房等生活空间，T13等主题用物件讲性格。",
+      "limits": "仅阅读商品说明与公开入口，未读完整付费内页。"
+    },
+    {
+      "id": "C11",
+      "title": "Walt Disney Family Museum：角色工作页",
+      "url": "https://www.waltdisney.org/sites/default/files/SW.worksheets.final.pdf",
+      "kind": "博物馆教育PDF",
+      "observed": "第4页解释model sheet，并列面部姿势、配色模型与身高比较等例子。",
+      "adopted": "B04固定脸结构；成年短发与学生高马尾按时期建档，不混用。",
+      "limits": "本项目的年龄阶段和发型由用户设定；不复制原作人物。"
+    },
+    {
+      "id": "C12",
+      "title": "Walt Disney Family Museum：Silhouette",
+      "url": "https://www.waltdisney.org/sites/default/files/2020-05/T%26T_Silhouette-final2.pdf",
+      "kind": "博物馆教育PDF",
+      "observed": "讨论可读外轮廓，提醒过多复杂形和躯干前遮挡会影响识别。",
+      "adopted": "一套衣服有一个主要结构亮点；手臂离腰留可读间隙，尾巴不与腿粘线。",
+      "limits": "自然姿态优先，不强制夸张卡通动作。"
+    },
+    {
+      "id": "C13",
+      "title": "Pixar：Turning Red官方制作介绍",
+      "url": "https://www.pixar.com/turning-red",
+      "kind": "工作室制作介绍",
+      "observed": "人物性格、外观、动作与卧室物件共同表达角色；场景研究也有实地线索。",
+      "adopted": "居家图写她在研究、分心或犯困；收藏用物件表现独立兴趣，旅行用克制地点线索。",
+      "limits": "不迁入该片年龄比例或三维画风。"
+    },
+    {
+      "id": "C14",
+      "title": "藤本树×沙村广明官方对谈",
+      "url": "https://www.shonenjump.com/p/sp/1706/fp_interview/index2.html",
+      "kind": "出版方创作者访谈",
+      "observed": "藤本树谈到脚部、触鼻、踏步等细微动作使角色有实在感。",
+      "adopted": "生活prompt写手指压页、半戴手套、脚步停顿、推糕点等性格动作。",
+      "limits": "访谈不提供通用女性比例公式；不虚构作者人体理论。"
+    },
+    {
+      "id": "C15",
+      "title": "VERTEX：朝凪Memorial Notes 2",
+      "url": "https://www.vertex-figure.com/post/artbook2",
+      "kind": "官方画集介绍",
+      "observed": "页面介绍包含原画、草案、rough、服装设定、造型照片与四格漫画。",
+      "adopted": "档案保留从构造/服装到生活叙事的过程，B06与主题图分工。",
+      "limits": "没有核实到作者人体教学或比例论述；本轮不将夸张比例迁入小白龙，也不把商品介绍当人体技法证据。"
+    },
+    {
+      "id": "C16",
+      "title": "Carlos Nieto：Comic Characters",
+      "url": "https://www.clipstudio.net/how-to-draw/archives/165800",
+      "kind": "创作者教程",
+      "observed": "先建立基本人体，再叠加服装和配件；长期重复设计避免无效复杂细节。",
+      "adopted": "B03单独提案身体结构，换装沿用同一人，配件控制数量。",
+      "limits": "成人白模只给成人使用；学生、幼年必须独立阶段模板。"
+    },
+    {
+      "id": "C17",
+      "title": "CLIP STUDIO：Character Art Beginners Guide",
+      "url": "https://www.clipstudio.net/en/characterart/beginners-guide/",
+      "kind": "官方绘画指南",
+      "observed": "建议观察真实布料在动作中的垂坠，图案随衣形变形。",
+      "adopted": "针织在肘部压缩、牛仔开衩服务步伐、格纹沿褶线压缩，不只列单品名。",
+      "limits": "材质描述为设计意图，仍需后续对输出逐项检查。"
+    },
+    {
+      "id": "C18",
+      "title": "OpenAI：Image prompting",
+      "url": "https://developers.openai.com/api/docs/guides/image-prompting",
+      "kind": "图像工具官方指南",
+      "observed": "参考按人物、服装、风格、背景编号分工；小步编辑并重述不变细节，重复编辑仍可能漂移。",
+      "adopted": "每条写清Image1/2/3职责；完整prompt附参考路径；修一项并复查脸发，不自动重抽。",
+      "limits": "当前内置工具不暴露全部API控制；不承诺可设seed、权重、积分档或精确输出像素。"
+    }
+  ]
+}

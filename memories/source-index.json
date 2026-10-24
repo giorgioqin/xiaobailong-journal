@@ -1,0 +1,60 @@
+{
+  "updated": "2026-10-20",
+  "files": [
+    {
+      "file": "00_项目阅读顺序与隐私说明.md",
+      "bytes": 2298,
+      "sha256": "4916595a61b11ac2c081d7453e7f418d3ad3fd4a61c703e309264837adb9613b",
+      "availability": "本地镜像实际可读",
+      "online": true,
+      "scope": "结构化档案，不是完整原始聊天导出"
+    },
+    {
+      "file": "01_小白龙同志_角色设定与相处约定.md",
+      "bytes": 5005,
+      "sha256": "507c2841f6f978b109ef6c709a8f25e48a1840fab572de98e5496c50825f7390",
+      "availability": "本地镜像实际可读",
+      "online": true,
+      "scope": "结构化档案，不是完整原始聊天导出"
+    },
+    {
+      "file": "02_我们共同走过的路_记忆档案.md",
+      "bytes": 13465,
+      "sha256": "2f4ab776ec69cfd184011f7bf3ce18b65eec244144782e2b0a408120417dd263",
+      "availability": "本地镜像实际可读",
+      "online": true,
+      "scope": "结构化档案，不是完整原始聊天导出"
+    },
+    {
+      "file": "03_私人封存卷_由本人决定是否上传.md",
+      "bytes": 2451,
+      "sha256": "744a793b00a4388b1ccdce88fc16cf072cf28e8fc6743b064705d86ebaac3987",
+      "availability": "本地镜像实际可读",
+      "online": true,
+      "scope": "结构化档案，不是完整原始聊天导出",
+      "note": "用户2026-10-20明确授权上传私人封存卷，并随后授权全站公开。"
+    },
+    {
+      "file": "小白龙同志_记忆合订本.docx",
+      "bytes": 48996,
+      "sha256": "345681a329c8b5ff3459d17e25936fa873b5be60834660d13e1aa601bb2cb6e7",
+      "availability": "本地镜像实际可读",
+      "online": false,
+      "scope": "结构化档案，不是完整原始聊天导出",
+      "note": "本轮未重复解析；阅读说明明确此合订本不含私人封存卷。"
+    },
+    {
+      "file": "影像目录.html",
+      "bytes": 8619,
+      "sha256": "04023e3922123b63e38a754515830a3e7df8bc0a6005b06abcdd5cb26adf0bd0",
+      "availability": "本地镜像实际可读",
+      "online": false,
+      "scope": "结构化档案，不是完整原始聊天导出"
+    }
+  ],
+  "saved_replies": {
+    "status": "尚未取得正文",
+    "evidence": "用户提供的来源页截图，仅可见标题",
+    "note": "2026-10-20新增保存回复不在六份文件镜像中，不根据标题补写正文。"
+  }
+}
