@@ -20,7 +20,8 @@ DOCS.push(
  {file:'17_生图经验与验收清单.md',title:'生图经验与验收清单',kind:'最新规范'},
  {file:'planning/round4/规划说明.md',title:'第四轮场景规划与案例映射',kind:'历史计划'},
  {file:'planning/round5/规划说明.md',title:'第五轮生活抓拍计划',kind:'历史计划'},
- {file:'planning/round6/规划说明.md',title:'第六轮 动作还没结束',kind:'下一轮计划'},
+ {file:'planning/round7/规划说明.md',title:'第七轮生图规划：有生命力的日常',kind:'本轮计划'},
+ {file:'planning/round6/规划说明.md',title:'第六轮生图队列：动作与写真',kind:'历史计划'},
  
  {file:'production/public-status-2026-10-23.md',title:'当前作品进度',kind:'生成记录'},
  {file:'35_角色尺度与档案肖像.md',title:'角色尺度与档案肖像',kind:'本轮新增基准'},
@@ -97,7 +98,7 @@ openDoc=async function(file){
 async function renderHomeSelection(){
  const host=document.querySelector('#home-selection');if(!host||host.dataset.ready)return;
  try{
-  const data=await jsonResource('images/generated/manifest.json');
+  const data=await jsonResource('images/generated/manifest.json?v=20261027-4');
   const choices=[['N21','象牙毛绒晨光'],['N32','纸伞舞步'],['N36','窗前自拍']];
   host.innerHTML=choices.map(([id,label])=>{
    const item=data.items.find(x=>x.id===id);if(!item)return '';
@@ -128,7 +129,7 @@ function paintCurrent(){return window.renderWorkDrawers?.()}
 renderGenerated=async function(){
  try{
   if(journalGallery.length){paintCurrent();return}
-  const data=await jsonResource('images/generated/manifest.json');
+  const data=await jsonResource('images/generated/manifest.json?v=20261027-4');
   journalGallery=(data.items||[]).slice().sort((a,b)=>a.id.localeCompare(b.id));journalHistory=data.archive_items||[];paintCurrent();
  }catch(e){document.querySelector('#generated-gallery').innerHTML='<div class="error-state"><p>'+escapeHtml(e.message)+'</p><button class="text-button" data-view="gallery">重新读取 ↗</button></div>'}
 };
@@ -142,7 +143,7 @@ async function renderMemories(){
  try{const chapters=await jsonResource('memories/chapters.json');const sections=['一、她是谁','3. 海南','4. 杭州','6. 如果','7. 家','9. 重要','我们曾经'];host.innerHTML=chapters.map((m,i)=>`<button class="memory-card" data-doc="${escapeHtml(m.source)}" data-memory-heading="${escapeHtml(sections[i])}"><span class="chapter-number">0${i+1}</span><h2>${escapeHtml(m.title)}</h2><p>${escapeHtml(m.summary)}</p><small>${escapeHtml(m.kind)}　阅读来源 ↗</small></button>`).join('');host.dataset.ready='1'}catch(e){host.textContent=e.message}
 }
 function renderPlans(){
- renderPlanCatalog('#round6-plans','planning/round6/catalog.json');
+ renderPlanCatalog('#round7-plans','planning/round7/catalog.json?v=20261027-1');
  document.querySelectorAll('.previous-plan-list').forEach(folder=>{
   const load=()=>{if(folder.open){const host=folder.querySelector('.plan-grid');if(host)renderPlanCatalog('#'+host.id,'planning/'+host.id.replace('-plans','')+'/catalog.json')}};
   if(!folder.dataset.lazyBound){folder.addEventListener('toggle',load);folder.dataset.lazyBound='1'}load();
@@ -151,17 +152,23 @@ function renderPlans(){
 async function renderPlanCatalog(selector,catalogPath){
  const host=document.querySelector(selector);if(!host||host.dataset.ready)return;
  try{
-  const data=await jsonResource(catalogPath),current=selector==='#round4-plans';
+  const data=await jsonResource(catalogPath),current=selector==='#round4-plans'||selector==='#round7-plans';
+  if(selector==='#round7-plans'){
+   const count=document.getElementById('round7-count'),generated=document.getElementById('round7-generated'),progress=document.getElementById('round7-progress');
+   if(count)count.textContent=String(data.items.length);
+   if(generated)generated.textContent=String(data.generated_this_round||0);
+   if(progress)progress.textContent='已完成规划，尚未生成。';
+  }
   host.innerHTML=data.items.map((p,i)=>{
-   const details=[['她为什么这样做',p.motivation],['动作的前一秒与下一秒',p.timing],['穿搭',p.outfit],['表情',p.expression],['镜头与构图',p.camera],['透视与接触',p.perspective],['本图角尾',p.horn_tail],['与旧作的区别',p.novelty||p.basis]].filter(x=>x[1]);
-   return `<article class="plan-card" data-batch="${escapeHtml(p.batch||'')}"><div class="plan-number">${escapeHtml(p.id)}<span>${current?'第 '+p.batch+' 批':escapeHtml(p.status||'历史计划')}</span></div><div class="plan-main"><p class="plan-kicker">${escapeHtml(p.kind||'场景计划')}</p><h2>${escapeHtml(p.title)}</h2><p class="plan-scene">${escapeHtml(p.scene||'')}</p><details><summary>查看这一幕的描述 <span aria-hidden="true">＋</span></summary><div class="plan-spec">${details.map(([k,v])=>`<div><h3>${k}</h3><p>${escapeHtml(v)}</p></div>`).join('')}</div><details class="full-prompt"><summary>完整提示词</summary><div class="plan-prompt">${escapeHtml(p.prompt||'')}</div><div class="prompt-actions"><button data-copy-plan="${escapeHtml(p.id)}" data-plan-catalog="${escapeHtml(catalogPath)}">复制描述</button><a href="${escapeHtml(localUrl(p.prompt_path||''))}" target="_blank" rel="noopener">打开 TXT ↗</a><span aria-live="polite"></span></div></details></details></div></article>`;
+   const details=[['她为什么这样做',p.motivation],['动作的前一秒与下一秒',p.timing],['穿搭',p.outfit],['表情',p.expression],['镜头与构图',p.camera],['透视与接触',p.perspective],['本图角尾',p.horn_tail],['验收提醒',p.risk],['与旧作的区别',p.novelty||p.basis]].filter(x=>x[1]);
+   return `<article class="plan-card" data-batch="${escapeHtml(p.batch||'')}"><div class="plan-number">${escapeHtml(p.id)}<span>${current?'第 '+p.batch+' 批':escapeHtml(p.status||'历史计划')}</span></div><div class="plan-main"><p class="plan-kicker">${escapeHtml(p.kind||'场景计划')}${p.public_status ? ' · '+escapeHtml(p.public_status) : ''}</p><h2>${escapeHtml(p.title)}</h2><p class="plan-scene">${escapeHtml(p.scene||'')}</p><details><summary>查看这一幕的描述 <span aria-hidden="true">＋</span></summary><div class="plan-spec">${details.map(([k,v])=>`<div><h3>${k}</h3><p>${escapeHtml(v)}</p></div>`).join('')}</div><details class="full-prompt"><summary>完整提示词</summary><div class="plan-prompt">${escapeHtml(p.prompt||'')}</div><div class="prompt-actions"><button data-copy-plan="${escapeHtml(p.id)}" data-plan-catalog="${escapeHtml(catalogPath)}">复制描述</button><a href="${escapeHtml(localUrl(p.prompt_path||''))}" target="_blank" rel="noopener">打开 TXT ↗</a><span aria-live="polite"></span></div></details></details></div></article>`;
   }).join('');host.dataset.ready='1';
  }catch(e){host.textContent=e.message}
 }
 
 function renderLibrary(){
  const host=document.querySelector('#document-library');if(host.dataset.ready)return;
- const current=['production/current-creation-guide.md','planning/round6/规划说明.md','35_角色尺度与档案肖像.md','production/character-card-archive.md','17_生图经验与验收清单.md','25_龙角两次转向与尺寸校准.md'];
+ const current=['production/current-creation-guide.md','planning/round7/规划说明.md','35_角色尺度与档案肖像.md','production/character-card-archive.md','17_生图经验与验收清单.md','25_龙角两次转向与尺寸校准.md'];
  const row=d=>'<button class="doc-row" data-doc="'+escapeHtml(d.file)+'">'+escapeHtml(d.title)+'<span>'+escapeHtml(d.kind)+' ↗</span></button>';
  const rest=DOCS.filter(d=>!current.includes(d.file)&&d.kind!=='创作记忆'&&!d.file.startsWith('memories/'));
  const groups=[

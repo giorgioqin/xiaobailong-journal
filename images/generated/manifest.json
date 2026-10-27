@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "N86",
+      "title": "蕾丝广告海报",
+      "path": "images/generated/N86_用户提供_蕾丝广告海报.webp",
+      "status": "用户提供 · 指定公开",
+      "date": "2026-10-27",
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "review": [
+        "用户提供的作品，按原样展示。"
+      ],
+      "feedback": [
+        "用户指定放入公开站。"
+      ]
+    },
+    {
+      "id": "N87",
+      "title": "花间蕾丝写真",
+      "path": "images/generated/N87_用户提供_花间蕾丝写真.webp",
+      "status": "用户提供 · 指定公开",
+      "date": "2026-10-27",
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "review": [
+        "用户提供的作品，按原样展示。"
+      ],
+      "feedback": [
+        "用户指定放入公开站。"
+      ]
+    },
+    {
       "id": "B01",
       "title": "标准角色设计总页",
       "path": "images/generated/B01_标准角色设计总页_v02.webp",
@@ -2639,6 +2673,69 @@
         "初检：脸部清晰且占比充足，双眼睁开；恰好两只带浅纹的哑光白角、一条白尾可辨。",
         "回头动作、抬手靠近玻璃和海龟通过的水族箱场景可读；脸部是否贴合ID01仍由用户复核。"
       ]
+    },
+    {
+      "id": "N81",
+      "title": "雾紫内衣品牌跨页写真",
+      "batch": "2026-10-27_R6_B3",
+      "initial_calls": 1,
+      "revisions": 0,
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "date": "2026-10-27",
+      "path": "images/generated/N81_雾紫内衣品牌跨页写真_v01.webp",
+      "status": "用户认可 · 首稿",
+      "review": [
+        "窗边晨光中的画册跨页写真。",
+        "用户认可首稿。"
+      ],
+      "feedback": [
+        "用户已认可。"
+      ]
+    },
+    {
+      "id": "N82",
+      "title": "晨光里的家居写真",
+      "batch": "2026-10-27_R6_B3",
+      "initial_calls": 1,
+      "revisions": 0,
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "date": "2026-10-27",
+      "path": "images/generated/N82_晨光里的家居写真_v01.webp",
+      "status": "用户通过 · 首稿",
+      "review": [
+        "晨光里的家居写真。",
+        "用户确认通过。"
+      ],
+      "feedback": [
+        "用户已确认通过。"
+      ]
+    },
+    {
+      "id": "N83",
+      "title": "浴室水汽写真",
+      "batch": "2026-10-27_R6_B3",
+      "initial_calls": 2,
+      "revisions": 0,
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-27",
+      "path": "images/generated/N83_浴室水汽写真_v01.webp",
+      "status": "用户通过 · 首稿",
+      "review": [
+        "浴室水汽与暖光写真。",
+        "用户确认通过。"
+      ],
+      "feedback": [
+        "用户已确认通过。"
+      ]
     }
   ],
   "archive_items": [
@@ -2971,5 +3068,5 @@
       ]
     }
   ],
-  "version_image_count": 126
+  "version_image_count": 131
 }
