@@ -2944,6 +2944,234 @@
       "feedback": [
         "用户已确认通过。"
       ]
+    },
+    {
+      "id": "N94",
+      "title": "风起时先把相机放一边",
+      "path": "images/generated/N94_风起时先把相机放一边_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B4",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B4/N94_实际使用提示词.txt",
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "9d1bffe00aa42a9318eb8712015556d181a31b79969d29a85a4b765d6e405213",
+      "review": [
+        "安静坐在海岸休息区，手捧热饮望海；动作和场景清楚。",
+        "外出角尾收起，用户已通过本稿。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "可见肢体和接触点已目视初检；具体关注点见review。",
+        "outfit": "符合场景方向，N95衣料风势偏大，待用户判断。",
+        "expression": "用户已确认本稿可公开。",
+        "horn_tail": "外出角尾收起；N95和N96出现非固定白花发饰。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N94_风起时先把相机放一边_v01.png",
+      "original_sha256": "9d1bffe00aa42a9318eb8712015556d181a31b79969d29a85a4b765d6e405213",
+      "display_sha256": "313810448c2a0c257741fe0b6165012373deb533b4f62005f9dbd5bf85e0948b",
+      "caption": "风起时先把相机放一边"
+    },
+    {
+      "id": "N95",
+      "title": "海风里跨过一小段木栈道",
+      "path": "images/generated/N95_海风里跨过一小段木栈道_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B4",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B4/N95_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "bc8d0576a46fd4983a1c764741449af1a656c9dd76e7c2c8f4b96ac1cc4f0b25",
+      "review": [
+        "跨步、平衡手势与海岸步道形成明显动势，双鞋入画。",
+        "用户已通过本稿；生成的衣料动势与白花发饰保留为本图特征。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "可见肢体和接触点已目视初检；具体关注点见review。",
+        "outfit": "符合场景方向，N95衣料风势偏大，待用户判断。",
+        "expression": "用户已确认本稿可公开。",
+        "horn_tail": "外出角尾收起；N95和N96出现非固定白花发饰。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N95_海风里跨过一小段木栈道_v01.png",
+      "original_sha256": "bc8d0576a46fd4983a1c764741449af1a656c9dd76e7c2c8f4b96ac1cc4f0b25",
+      "display_sha256": "7e64658a5fc6485bdd96b23d29b87a9c22a844b29bccf8a4869e3bbac064748e",
+      "caption": "海风里跨过一小段木栈道"
+    },
+    {
+      "id": "N96",
+      "title": "坐船去岛上看艺术",
+      "path": "images/generated/N96_坐船去岛上看艺术_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B4",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B4/N96_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "7c1bcaa247f91a1328874567e5aa955bea2b98c37c5fc8eba3c97d45c8beb1d7",
+      "review": [
+        "渡船甲板、岛影、斜挎包与挡风动作可辨，双脚入画。",
+        "用户已通过本稿；非固定白花发饰只属于本图。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "可见肢体和接触点已目视初检；具体关注点见review。",
+        "outfit": "符合场景方向，N95衣料风势偏大，待用户判断。",
+        "expression": "用户已确认本稿可公开。",
+        "horn_tail": "外出角尾收起；N95和N96出现非固定白花发饰。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N96_坐船去岛上看艺术_v01.png",
+      "original_sha256": "7c1bcaa247f91a1328874567e5aa955bea2b98c37c5fc8eba3c97d45c8beb1d7",
+      "display_sha256": "63b00a9758ec4e5f29becb801cbabbac937d8201e31ffd981baca6afcc0afd34",
+      "caption": "坐船去岛上看艺术"
+    },
+    {
+      "id": "N97",
+      "title": "骑一段就下来看看",
+      "path": "images/generated/N97_骑一段就下来看看_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B5",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B5/N97_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "92702d93011a8df9c8348b93d5682b6f343deba982ebd0b2bb5aeb13442a7ff1",
+      "review": [
+        "停好的自行车、支架与指向艺术作品的动作清楚，双脚落地。",
+        "灰蓝外套与旅行穿搭连贯，外出角尾收起；用户已通过本稿。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "主要姿势支点和可见肢体已目视，不替用户确认最终通过。",
+        "outfit": "旅行穿搭待用户审阅。",
+        "horn_tail": "外出场景未见龙角和尾巴。",
+        "expression": "用户已确认本稿可公开。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N97_骑一段就下来看看_v01.png",
+      "original_sha256": "92702d93011a8df9c8348b93d5682b6f343deba982ebd0b2bb5aeb13442a7ff1",
+      "display_sha256": "e4b0a884f5f40f2d91a57eb4d75f8f5871dfc24be4feb3a7ebe1e6c9c2cac5a2",
+      "caption": "骑一段就下来看看"
+    },
+    {
+      "id": "N98",
+      "title": "没看懂也要站近一点",
+      "path": "images/generated/N98_没看懂也要站近一点_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B6",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B6/N98_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "a22907d24fea0f89c6fcbc85b92f15f6713ec5a6c32850c2148f6d9376519ebc",
+      "review": [
+        "侧身观察装置、空中比划和手持相机的关系清楚，没有触碰作品。",
+        "疑惑带笑的表情可辨，外出角尾收起；用户已通过本稿。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "主要姿势支点和可见肢体已目视，不替用户确认最终通过。",
+        "outfit": "旅行穿搭待用户审阅。",
+        "horn_tail": "外出场景未见龙角和尾巴。",
+        "expression": "用户已确认本稿可公开。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N98_没看懂也要站近一点_v01.png",
+      "original_sha256": "a22907d24fea0f89c6fcbc85b92f15f6713ec5a6c32850c2148f6d9376519ebc",
+      "display_sha256": "a4aa3a041d69e655b0e28bcb5e5349bb7b788cb9efa8b9d732adc277e13256d3",
+      "caption": "没看懂也要站近一点"
+    },
+    {
+      "id": "N99",
+      "title": "回程船上翻到那张怪照片",
+      "path": "images/generated/N99_回程船上翻到那张怪照片_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B6",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B6/N99_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "ec1ef572deafa9966eec0316425f269f06d5a3830e42a1fb9957978d396ccc18",
+      "review": [
+        "靠窗坐姿有座椅支撑，窗外岛影可辨；相机屏幕没有可读文字。",
+        "开怀表情自然，穿搭与本趟旅行连贯，外出角尾收起；用户已通过本稿。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿",
+        "identity": "用户已确认本稿可公开。",
+        "anatomy": "主要姿势支点和可见肢体已目视，不替用户确认最终通过。",
+        "outfit": "旅行穿搭待用户审阅。",
+        "horn_tail": "外出场景未见龙角和尾巴。",
+        "expression": "用户已确认本稿可公开。"
+      },
+      "feedback": [
+        "2026-10-29：用户表示“都可以公开了，本地网站也同步好”，批准本图公开。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N99_回程船上翻到那张怪照片_v01.png",
+      "original_sha256": "ec1ef572deafa9966eec0316425f269f06d5a3830e42a1fb9957978d396ccc18",
+      "display_sha256": "5aa9af9ba83813186f6a981f615a8a938172f39e20dd77b8f639e6a574bb4b18",
+      "caption": "回程船上翻到那张怪照片"
     }
   ],
   "archive_items": [
@@ -3276,5 +3504,5 @@
       ]
     }
   ],
-  "version_image_count": 137
+  "version_image_count": 143
 }

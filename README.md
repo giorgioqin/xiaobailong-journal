@@ -1,15 +1,13 @@
 # 小白龙同志历险记
 
-公开作品与生活展册的静态镜像
+本仓库是已有公开网站的静态阅读镜像，由用户于2026-10-20明确选择发布。
 
-- [最新阅读目录](read/index.html)
-- [交互网站](site/index.html)
-- [当前工作指南](production/current-creation-guide.md)
-- [角色卡片归档](read/character-cards.html)
-- [设计规范](DESIGN_SYSTEM.md)
+正文、图片与真实分页链接直接包含在HTML内；不依赖前端脚本读取正文。
+交互版继续保留在site/。read/为逐页阅读版，首页为完整HTML目录。
 
-当前83项作品 43张历史修改 第六轮6项规划尚未生成
-卡面使用最后补交版本 既有虚构身份卡与资料卡设计稿保留
-图片为网页浏览副本 本仓库不替代本地原始档案备份
+只收录已保存和核实的来源。真实经历、共同创作与未来设定沿用原文标注。
+当前通过作品、历史影像和创作计划以站内目录为准。
+网页图片是高质量WebP浏览副本，未压缩原图仍保存在用户本地档案中。
 
-主站 https://xiaobailong-journal.giorgioqin.chatgpt.site/site/
+GitHub Pages 发布源为 main 分支的根目录，.nojekyll 禁止Jekyll改写文件。
+原公开网站：https://xiaobailong-journal.giorgioqin.chatgpt.site/site/
