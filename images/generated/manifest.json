@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "id": "N93",
+      "title": "渔港里搬一只轻筐",
+      "path": "images/generated/N93_渔港里搬一只轻筐_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B3",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B3/N93_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "281eb57519a9c84b132789d5b9f265dcae62c60b1526e62cb69df2486593ead6",
+      "review": [
+        "双手分别握住一只空筐，屈膝发力姿势清楚，支撑关系自然。",
+        "卡其外套、条纹衫和工装裤延续N92；腿脚部分受筐遮挡，仍可见脚下支撑。",
+        "未出现角尾与发饰；脸发画法接近身份参考，待用户复核。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "银白短发、淡紫眼与二次元方向接近身份参考，脸部细节待用户复核。",
+        "anatomy": "可见的动作支点与肢体总体清楚；部分腿脚遮挡按单图记录。",
+        "outfit": "符合场景的轻便旅行穿搭，避免堆叠布料。",
+        "expression": "与各场景情绪相符，待用户确认。",
+        "horn_tail": "外出规则下角尾收起；按首稿逐图记录。"
+      },
+      "feedback": [
+        "2026-10-29：用户回复“都可以”，同意本批并继续生图。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N93_渔港里搬一只轻筐_v01.png",
+      "original_sha256": "0d9be6278db0adcfed0baf93a29c63d74d005017ae4ff00d1225f85de0bace6d"
+    },
+    {
+      "id": "N92",
+      "title": "退潮以后沙地画了线",
+      "path": "images/generated/N92_退潮以后沙地画了线_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B3",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B3/N92_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "7287fa4038ca1417adec5cd487cf59b6c08997a35fa6c149b6ced4f6f824a545",
+      "review": [
+        "霞浦潮纹、海面、相机和指向动作清楚；全身与双脚入画，支撑点可见。",
+        "双手一持相机、一指向海面；腿脚轮廓整体清楚，待用户复核比例。",
+        "画面带出白色花形发饰，该发饰不是固定设定，记录为身份参考污染；角尾未出现。",
+        "重新核对发现图中出现白色花形发饰；该发饰不是固定人设，待用户判断是否接受。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "银白短发、淡紫眼与二次元方向接近身份参考，脸部细节待用户复核。",
+        "anatomy": "可见的动作支点与肢体总体清楚；部分腿脚遮挡按单图记录。",
+        "outfit": "符合场景的轻便旅行穿搭，避免堆叠布料。",
+        "expression": "与各场景情绪相符，待用户确认。",
+        "horn_tail": "外出规则下角尾收起；按首稿逐图记录。"
+      },
+      "feedback": [
+        "2026-10-29：用户回复“都可以”，同意本批并继续生图。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N92_退潮以后沙地画了线_v01.png",
+      "original_sha256": "2a3f8e13c4c431f363c1b2db2be6ad75b62fb7720c65811272ab671239479a52"
+    },
+    {
+      "id": "N91",
+      "title": "傍晚把歪杯装好带走",
+      "path": "images/generated/N91_傍晚把歪杯装好带走_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B3",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 2,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B3/N91_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "c75ef61ccda6699e2941226e6ffc2f0be67d7d8c0a1de7f87c9b437b50ec4d66",
+      "review": [
+        "歪杯放入软布袋的动作清楚，雾蓝短夹克与高腰牛仔裤利落；表情明亮带得意。",
+        "脚部在构图下沿，重心略交叉，行走支撑待用户判断；包中陶杯可见。",
+        "角尾未出现；脸发画法接近身份参考，仍待用户复核。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿；用户审阅尚未完成。",
+        "identity": "银白短发、淡紫眼与二次元方向接近身份参考，脸部细节待用户复核。",
+        "anatomy": "可见的动作支点与肢体总体清楚；部分腿脚遮挡按单图记录。",
+        "outfit": "符合场景的轻便旅行穿搭，避免堆叠布料。",
+        "expression": "与各场景情绪相符，待用户确认。",
+        "horn_tail": "外出规则下角尾收起；按首稿逐图记录。"
+      },
+      "feedback": [
+        "第一轮内置imagegen连接失败，无图；本次第二次调用成功生成首稿。",
+        "2026-10-29：用户回复“都可以”，同意本批并继续生图。"
+      ],
+      "publication": "用户指定公开",
+      "display_derivative": true,
+      "original_path": "images/generated/N91_傍晚把歪杯装好带走_v01.png",
+      "original_sha256": "a20bf037639eb6aa5476ef59ddb8de01d4c11e7b5b92880573aaefa881131741"
+    },
+    {
       "id": "N89",
       "title": "歪杯子本人先救一下",
       "path": "images/generated/N89_歪杯子本人先救一下_v01.webp",
@@ -3163,5 +3276,5 @@
       ]
     }
   ],
-  "version_image_count": 134
+  "version_image_count": 137
 }
