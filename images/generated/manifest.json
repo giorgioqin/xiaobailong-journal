@@ -1,6 +1,101 @@
 {
   "items": [
     {
+      "id": "N89",
+      "title": "歪杯子本人先救一下",
+      "path": "images/generated/N89_歪杯子本人先救一下_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B1",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B1/N89_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "968ca7a6dd8f05762facea6365e4e189b787d4d0ff915245eaffeb36f98778ec",
+      "review": [
+        "首稿延续N88的工作室与穿搭，眉眼睁大、嘴角忍笑的惊讶感清楚；脸部身份待用户复核。",
+        "角与尾均未出现。歪杯与木板在画面中心；手部总体接触可读，但左右手分工没有完全按提示词落位。下肢被裁切，无法完整验收；前景有虚化的其他陶器。",
+        "围裙和衬衫布料量适中，袖口泥点可辨；表情生动自然。状态待用户判断。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿并与ID01、B02、B04及指定穿搭/连续性参考对照；用户审阅尚未完成。",
+        "identity": "银白短发、淡紫眼和既定二次元方向接近参考；具体身份一致性待用户复核。",
+        "anatomy": "双手可见；下肢受画幅或场景遮挡，不能宣称全身比例通过。",
+        "outfit": "暖白亚麻衬衫、深靛蓝围裙与深灰蓝直筒裤可辨；衣料量适中。",
+        "scene": "陶溪川陶艺工作室、拉坯转盘与陶器环境可辨。",
+        "expression": "符合各自情境；待用户判断是否达到预期。",
+        "perspective": "工作台与泥杯关系可辨；部分身体支撑及足部不可见。",
+        "horn_tail": "外出日常，未出现可见龙角或尾巴。"
+      },
+      "feedback": [
+        "2026-10-29 用户：可以，继续吧，都放入公开站中。"
+      ],
+      "publication": "用户指定公开"
+    },
+    {
+      "id": "N88",
+      "title": "第一团泥终于立住了",
+      "path": "images/generated/N88_第一团泥终于立住了_v01.webp",
+      "status": "用户通过 · 首稿",
+      "batch": "2026-10-29_R7_B1",
+      "generation_mode": "内置imagegen",
+      "initial_calls": 1,
+      "revisions": 0,
+      "actual_prompt": "production/batches/2026-10-29_R7_B1/N88_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "date": "2026-10-29",
+      "source_sha256": "0309bd07d6200ce56c7929d871196ff4b9bc09914cffdab9b4ab231f9e23cbbd",
+      "review": [
+        "首稿呈现陶溪川拉坯工作台与暖白衬衫、深靛蓝围裙；银白短发、淡紫眼和二次元画法接近参考，脸部身份待用户复核。",
+        "角与尾均未出现。手扶泥坯的制作情境可辨，表情专注自然，但提示词中的站立被生成成坐姿；双腿和脚被画幅、转盘遮挡，不能完整验收。",
+        "衣服剪裁轻巧，布料量适中；工具与器物作背景层次。专注中带期待的情绪较弱，待用户判断。"
+      ],
+      "quality_check": {
+        "method": "人工目视首稿并与ID01、B02、B04及指定穿搭/连续性参考对照；用户审阅尚未完成。",
+        "identity": "银白短发、淡紫眼和既定二次元方向接近参考；具体身份一致性待用户复核。",
+        "anatomy": "双手可见；下肢受画幅或场景遮挡，不能宣称全身比例通过。",
+        "outfit": "暖白亚麻衬衫、深靛蓝围裙与深灰蓝直筒裤可辨；衣料量适中。",
+        "scene": "陶溪川陶艺工作室、拉坯转盘与陶器环境可辨。",
+        "expression": "符合各自情境；待用户判断是否达到预期。",
+        "perspective": "工作台与泥杯关系可辨；部分身体支撑及足部不可见。",
+        "horn_tail": "外出日常，未出现可见龙角或尾巴。"
+      },
+      "feedback": [
+        "2026-10-29 用户：可以，继续吧，都放入公开站中。"
+      ],
+      "publication": "用户指定公开"
+    },
+    {
+      "id": "N90",
+      "title": "门口歇十分钟再继续",
+      "path": "images/generated/N90_门口歇十分钟再继续_v01.webp",
+      "status": "用户通过 · 首稿",
+      "date": "2026-10-29",
+      "initial_calls": 1,
+      "revisions": 0,
+      "generation_mode": "内置imagegen",
+      "actual_prompt": "production/batches/2026-10-29_R7_B2/N90_实际使用提示词.txt",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "source_sha256": "3ea056dcbb472f64b38f22f0d6f128c237411134cbd0968835f0b2bb524be346",
+      "review": [
+        "坐在工作室门口端详歪杯，双手和双脚可辨，外出角尾收起；右侧鞋部部分被前景陶器遮挡。"
+      ],
+      "feedback": [
+        "2026-10-29 用户：可以，继续吧，都放入公开站中。"
+      ],
+      "publication": "用户指定公开"
+    },
+    {
       "id": "N86",
       "title": "蕾丝广告海报",
       "path": "images/generated/N86_用户提供_蕾丝广告海报.webp",
@@ -3068,5 +3163,5 @@
       ]
     }
   ],
-  "version_image_count": 131
+  "version_image_count": 134
 }
