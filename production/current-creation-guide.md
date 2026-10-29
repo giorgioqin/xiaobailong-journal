@@ -56,7 +56,9 @@ B04辅助表情与短发转向 服装与摄影案例只借已指定部分
 
 ## 本轮入口
 
-[第七轮规划](planning/round7/规划说明.md)
+[第八轮公开规划](planning/round8/public/规划说明.md)（21项、7批；已登记衣装与姿势参考库；尚未生图）
+[衣装参考库](https://ai-costume-gallery.pages.dev/)仅作配色与层次参考，[姿势参考库](https://github.com/anhao/ai-pose-gallery-zh)仅取标准单人系的动作线索；不复制图库图片。
+[上一轮第七轮归档](planning/round7/规划说明.md)
 [完整场景描述](planning/round6/catalog.json)
 [角色卡片归档](production/character-card-archive.md)
 [详细经验原文](17_生图经验与验收清单.md)

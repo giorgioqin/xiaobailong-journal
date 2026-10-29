@@ -111,7 +111,7 @@ async function openDoc(file){
  }finally{clearTimeout(slow);if(request===docRequestId)docContent.removeAttribute('aria-busy')}
 }
 function extractPlain(md){return md.replace(/```[\s\S]*?```/g,' ').replace(/[#>*`|]/g,' ').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/\s+/g,' ').trim()}
-async function primeSearch(){return SiteData.json('site/assets/search-index-v065.json')}
+async function primeSearch(){return SiteData.json('site/assets/search-index-v066.json')}
 async function runSearch(query){
  const q=query.trim().toLocaleLowerCase(),request=++searchRequestId;
  if(!q){showView('home');return}

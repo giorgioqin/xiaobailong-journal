@@ -20,7 +20,8 @@ DOCS.push(
  {file:'17_生图经验与验收清单.md',title:'生图经验与验收清单',kind:'最新规范'},
  {file:'planning/round4/规划说明.md',title:'第四轮场景规划与案例映射',kind:'历史计划'},
  {file:'planning/round5/规划说明.md',title:'第五轮生活抓拍计划',kind:'历史计划'},
- {file:'planning/round7/规划说明.md',title:'第七轮旅行叙事规划',kind:'本轮计划'},
+ {file:'planning/round8/public/规划说明.md',title:'第八轮海边与潍坊风筝规划',kind:'本轮计划'},
+ {file:'planning/round7/规划说明.md',title:'第七轮旅行叙事规划',kind:'历史计划'},
  {file:'planning/round6/规划说明.md',title:'第六轮生图队列：动作与写真',kind:'历史计划'},
  
  {file:'production/public-status-2026-10-23.md',title:'当前作品进度',kind:'生成记录'},
@@ -143,7 +144,7 @@ async function renderMemories(){
  try{const chapters=await jsonResource('memories/chapters.json');const sections=['一、她是谁','3. 海南','4. 杭州','6. 如果','7. 家','9. 重要','我们曾经'];host.innerHTML=chapters.map((m,i)=>`<button class="memory-card" data-doc="${escapeHtml(m.source)}" data-memory-heading="${escapeHtml(sections[i])}"><span class="chapter-number">0${i+1}</span><h2>${escapeHtml(m.title)}</h2><p>${escapeHtml(m.summary)}</p><small>${escapeHtml(m.kind)}　阅读来源 ↗</small></button>`).join('');host.dataset.ready='1'}catch(e){host.textContent=e.message}
 }
 function renderPlans(){
- renderPlanCatalog('#round7-plans','planning/round7/catalog.json?v=20261029-4');
+ renderPlanCatalog('#round8-plans','planning/round8/public/catalog.json?v=20261029-1');
  document.querySelectorAll('.previous-plan-list').forEach(folder=>{
   const load=()=>{if(folder.open){const host=folder.querySelector('.plan-grid');if(host)renderPlanCatalog('#'+host.id,'planning/'+host.id.replace('-plans','')+'/catalog.json')}};
   if(!folder.dataset.lazyBound){folder.addEventListener('toggle',load);folder.dataset.lazyBound='1'}load();
@@ -152,7 +153,7 @@ function renderPlans(){
 async function renderPlanCatalog(selector,catalogPath){
  const host=document.querySelector(selector);if(!host||host.dataset.ready)return;
  try{
-  const data=await jsonResource(catalogPath),current=selector==='#round4-plans'||selector==='#round7-plans';
+  const data=await jsonResource(catalogPath),current=selector==='#round4-plans'||selector==='#round8-plans';
   if(selector==='#round7-plans'){
    const count=document.getElementById('round7-count'),generated=document.getElementById('round7-generated'),progress=document.getElementById('round7-progress');
    if(count)count.textContent=String(data.items.length);
@@ -168,7 +169,7 @@ async function renderPlanCatalog(selector,catalogPath){
 
 function renderLibrary(){
  const host=document.querySelector('#document-library');if(host.dataset.ready)return;
- const current=['production/current-creation-guide.md','planning/round7/规划说明.md','35_角色尺度与档案肖像.md','production/character-card-archive.md','17_生图经验与验收清单.md','25_龙角两次转向与尺寸校准.md'];
+ const current=['production/current-creation-guide.md','planning/round8/public/规划说明.md','35_角色尺度与档案肖像.md','production/character-card-archive.md','17_生图经验与验收清单.md','25_龙角两次转向与尺寸校准.md'];
  const row=d=>'<button class="doc-row" data-doc="'+escapeHtml(d.file)+'">'+escapeHtml(d.title)+'<span>'+escapeHtml(d.kind)+' ↗</span></button>';
  const rest=DOCS.filter(d=>!current.includes(d.file)&&d.kind!=='创作记忆'&&!d.file.startsWith('memories/'));
  const groups=[
