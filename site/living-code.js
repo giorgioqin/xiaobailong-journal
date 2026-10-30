@@ -1,7 +1,8 @@
 /* Dedicated exhibition layer  Existing work metadata remains authoritative */
 const LIVING_EXHIBITIONS=[
- {slug:'sea-and-kite',number:'03',title:'海风与一只小白龙风筝',subtitle:'从海边合照 到亲手做风筝 再跑向草地',description:'先在海边留下两个人的笑\n再用竹条和纸做一只小白龙\n最后让它跟着风飞起来',ascii:'~  ~    /\\ /\\    ~  ~',ids:['N100','N101','N101A','N102','N103',...Array.from({length:17},(_,i)=>'N'+(104+i))],notes:[],chapters:{N100:'01 / 海边 · 一起留下的照片',N104:'02 / 工坊 · 把想法做出来',N116:'03 / 草地 · 让它飞起来'}},
- {slug:'on-the-road',number:'04',title:'路上慢慢走',subtitle:'十二张旅行影像 连成一段路',description:'从启程到回程\n一路有风景 有回望 也有随手留下的笑\n十二个瞬间 连成这段旅行',ascii:' .  .   /\\ /\\   .  .',ids:Array.from({length:12},(_,i)=>'N'+(88+i)),notes:[]},
+ {slug:'pottery',number:'03',title:'一只歪杯子的下午',subtitle:'从第一团泥 到把作品小心带走',description:'先让一团泥慢慢立起来\n歪了就再试着扶一扶\n收工时 把这一天带走',asset:'exhibition-pottery-v01.webp',ids:['N88','N89','N90','N91'],notes:[],chapters:{N88:'01 / 做一只杯子',N90:'02 / 歇一歇 再带它回去'}},
+ {slug:'on-the-road',number:'04',title:'从海边走到岛上',subtitle:'潮汐 渔港 岛上 再到暮色里的合照',description:'沿着海岸慢慢走\n坐船去岛上看看 再回到暮色里的海边\n最后才留下两个人的合照',asset:'exhibition-seaside-v01.webp',ids:['N92','N93','N94','N95','N96','N97','N98','N99','N100','N101','N101A','N102','N103'],notes:[],chapters:{N92:'01 / 海岸与渔港',N96:'02 / 坐船去岛上',N100:'03 / 海边暮色 · 留下合照'}},
+ {slug:'sea-and-kite',number:'05',title:'做一只小白龙风筝',subtitle:'从竹条 纸和颜料 到草地上的第一次试飞',description:'走进工坊 挑竹条 画纹样\n把一只小白龙慢慢做出来\n再去草地上等一阵合适的风',asset:'exhibition-kite-v01.webp',ids:Array.from({length:17},(_,i)=>'N'+(104+i)),notes:[],chapters:{N104:'01 / 工坊 · 从竹条开始',N116:'02 / 草地 · 等风和试飞'}},
  {slug:'wind',number:'01',title:'风经过的时候',subtitle:'从一次回望到一个没停下来的动作',description:'上坡的笑意 桥上的招呼 还有被风翻动的一页纸\n把那些还没结束的动作连在一起\n画面之外也像有下一步',asset:'exhibition-wind-v01.webp',ids:['N64','N70','N45','N69','N72','N73','N36'],notes:['跑上坡时 笑意比脚步更快','桥上的招呼 大得像要拥抱风','秋河边的歇脚也有好心情','转身的脚步和追上来的裙摆','扶着栏杆回头 碰巧撞上镜头','窗边还有没写完的一页','日常也值得留下一张']},
  {slug:'wardrobe',number:'02',title:'她选择的造型',subtitle:'换一件衣服 也换一种心情',description:'有时候轻快 有时候郑重\n从晨光里的柔软到纸伞下的舞步\n衣服与动作一起说话',asset:'exhibition-wardrobe-v01.webp',ids:['N21','N26','N27','N32','N33','N34'],notes:['柔软的白色与回身的一眼','黑猫系旗袍配上一点暗红唇色','圣诞的红丝绒与柔软毛绒边','伞与脚步一起转动','庭院里披起一段柔软的布料','浅蓝牛仔和全身镜前的一刻']}
 ];

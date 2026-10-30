@@ -4,10 +4,29 @@
   "axes": {
     "scene": [
       {
-        "id": "round8-coast",
-        "title": "海边合照",
-        "description": "第八轮 · 海风和两个人的合照",
+        "id": "pottery",
+        "title": "陶艺的一天",
+        "description": "从做泥坯到带走小杯子",
         "items": [
+          "N88",
+          "N89",
+          "N90",
+          "N91"
+        ]
+      },
+      {
+        "id": "seaside",
+        "title": "海边与岛上",
+        "description": "海岸 渔港 岛上与暮色合照",
+        "items": [
+          "N92",
+          "N93",
+          "N94",
+          "N95",
+          "N96",
+          "N97",
+          "N98",
+          "N99",
           "N100",
           "N101",
           "N101A",
@@ -199,6 +218,32 @@
       }
     ],
     "outfit": [
+      {
+        "id": "pottery-outfit",
+        "title": "陶艺工作穿搭",
+        "description": "围裙与轻便工作装",
+        "items": [
+          "N88",
+          "N89",
+          "N90",
+          "N91"
+        ]
+      },
+      {
+        "id": "seaside-outfit",
+        "title": "海边与岛上轻外套",
+        "description": "旅行与海风",
+        "items": [
+          "N92",
+          "N93",
+          "N94",
+          "N95",
+          "N96",
+          "N97",
+          "N98",
+          "N99"
+        ]
+      },
       {
         "id": "round8-travel",
         "title": "雾蓝海边外套",
