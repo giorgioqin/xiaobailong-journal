@@ -3172,6 +3172,204 @@
       "original_sha256": "ec1ef572deafa9966eec0316425f269f06d5a3830e42a1fb9957978d396ccc18",
       "display_sha256": "5aa9af9ba83813186f6a981f615a8a938172f39e20dd77b8f639e6a574bb4b18",
       "caption": "回程船上翻到那张怪照片"
+    },
+    {
+      "id": "N100",
+      "title": "第一张先好好笑",
+      "path": "site/assets/works/round8/N100.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "第一张先好好笑",
+      "display_derivative": true,
+      "display_sha256": "c24845229412ffb8a4834ac107104862db53d25b0a08a457ce0a72856a4dbec0"
+    },
+    {
+      "id": "N101",
+      "title": "快门前偷偷亲一下",
+      "path": "site/assets/works/round8/N101.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "快门前偷偷亲一下",
+      "display_derivative": true,
+      "display_sha256": "ab76745e4ed77d6bf03834a2cbeb1b251ee86e468c6c06b23695e5daceb6f2da"
+    },
+    {
+      "id": "N101A",
+      "title": "快门前偷偷亲一下 横版",
+      "path": "site/assets/works/round8/N101A.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "快门前偷偷亲一下 横版",
+      "display_derivative": true,
+      "display_sha256": "37f5962fcd36992a9e30485c58d8ebabfacf996a74e4ee00477b2859d04fd9a7"
+    },
+    {
+      "id": "N102",
+      "title": "鼻子突然被捏成小猪鼻子",
+      "path": "site/assets/works/round8/N102.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "鼻子突然被捏成小猪鼻子",
+      "display_derivative": true,
+      "display_sha256": "db805d9ba79f0eadb22bb7442affceb8e2aef1b4dab22cfdf41a019e78792d55"
+    },
+    {
+      "id": "N103",
+      "title": "翻照片时她选了第三张",
+      "path": "site/assets/works/round8/N103.webp",
+      "status": "用户指定公开",
+      "caption": "翻照片时她选了第三张",
+      "display_derivative": true,
+      "display_sha256": "7a8d37c9bce4965f8d5fbf21316ea51b1800d3a604913ed272300074ffa51833"
+    },
+    {
+      "id": "N104",
+      "title": "进门先盯上那捆竹条",
+      "path": "site/assets/works/round8/N104.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "进门先盯上那捆竹条",
+      "display_derivative": true,
+      "display_sha256": "075f3ba39683ebe9b8ec1b1b2424eb1993b354656c40ba6de0d54c4da3d5b371"
+    },
+    {
+      "id": "N105",
+      "title": "竹条粗细也要认真挑",
+      "path": "site/assets/works/round8/N105.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "竹条粗细也要认真挑",
+      "display_derivative": true,
+      "display_sha256": "5add435fc5501811ebdb0cfcf987220fb96c78d1c987cc3ea32f4b263bfc7753"
+    },
+    {
+      "id": "N106",
+      "title": "年画云纹给了她一个主意",
+      "path": "site/assets/works/round8/N106.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "年画云纹给了她一个主意",
+      "display_derivative": true,
+      "display_sha256": "c75cb8bbb5643e74bca8359177ec1b0fc97bcab95eb0ace2e24ed78be9b77d99"
+    },
+    {
+      "id": "N107",
+      "title": "草图上画着一条小白龙",
+      "path": "site/assets/works/round8/N107.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "草图上画着一条小白龙",
+      "display_derivative": true,
+      "display_sha256": "b6c1d5196a517d6883898e610cc527957b9e53117af96fab72c1c779e6dd70ff"
+    },
+    {
+      "id": "N108",
+      "title": "第一只淡紫眼睛画好了",
+      "path": "site/assets/works/round8/N108.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "第一只淡紫眼睛画好了",
+      "display_derivative": true,
+      "display_sha256": "6dadbfd3ae925bcaed8ef3a59e494544e5330f1a6259e07bcf769ac9cbf6c610"
+    },
+    {
+      "id": "N109",
+      "title": "把竹骨架扎在交叉点上",
+      "path": "site/assets/works/round8/N109.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "把竹骨架扎在交叉点上",
+      "display_derivative": true,
+      "display_sha256": "f90299a9eb2231c21420c207f7a79c9562a5fa3bbbf70e434dd776ceb75f0b69"
+    },
+    {
+      "id": "N110",
+      "title": "纸边起皱她赶紧按住",
+      "path": "site/assets/works/round8/N110.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "纸边起皱她赶紧按住",
+      "display_derivative": true,
+      "display_sha256": "a913b003421f8b428282d1a7ce273ca4f33e7aad26949cc270a4ed8530bd7b88"
+    },
+    {
+      "id": "N111",
+      "title": "给小白龙接上长长的纸尾",
+      "path": "site/assets/works/round8/N111.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "给小白龙接上长长的纸尾",
+      "display_derivative": true,
+      "display_sha256": "30ea77d810db8184d4f489c79e7bcc6d6a21e4d16a5dc8839db3533ebd2be1db"
+    },
+    {
+      "id": "N112",
+      "title": "拿起来才发现两只角不一样高",
+      "path": "site/assets/works/round8/N112.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "拿起来才发现两只角不一样高",
+      "display_derivative": true,
+      "display_sha256": "3930d58dc2edcda94dabb43f5c60dade104ec201390dc466102317d6dd5ce78c"
+    },
+    {
+      "id": "N113",
+      "title": "先把高的那只修一点点",
+      "path": "site/assets/works/round8/N113.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "先把高的那只修一点点",
+      "display_derivative": true,
+      "display_sha256": "129719c3ee86f90cfd683f005dac3c2e8cac10f70b3f97fad2830e26bfd045a8"
+    },
+    {
+      "id": "N114",
+      "title": "举起来试平衡时忍不住笑",
+      "path": "site/assets/works/round8/N114.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "举起来试平衡时忍不住笑",
+      "display_derivative": true,
+      "display_sha256": "4c7e1fd80b30a9530a8fcc38de48a710fb85843f024712a30c540e10fa470197"
+    },
+    {
+      "id": "N115",
+      "title": "满手颜料也要把过程留档",
+      "path": "site/assets/works/round8/N115.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "满手颜料也要把过程留档",
+      "display_derivative": true,
+      "display_sha256": "13fa37e5e388fb325ef02b1ee3f2112484a6eb1b85b315faffe85c9f70e71adf"
+    },
+    {
+      "id": "N116",
+      "title": "到草地先摸摸风往哪边来",
+      "path": "site/assets/works/round8/N116.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "到草地先摸摸风往哪边来",
+      "display_derivative": true,
+      "display_sha256": "041b21cda8c5ec88b04520d91812a89abd61df505289e7419ad86c3b82e29197"
+    },
+    {
+      "id": "N117",
+      "title": "第一阵风把纸尾吹动了",
+      "path": "site/assets/works/round8/N117.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "第一阵风把纸尾吹动了",
+      "display_derivative": true,
+      "display_sha256": "c529d1b88dd1b40f03cce21cad71c000657260e59950d207d48fea7bfb9c27e2"
+    },
+    {
+      "id": "N118",
+      "title": "跑起来以后小白龙终于升空",
+      "path": "site/assets/works/round8/N118.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "跑起来以后小白龙终于升空",
+      "display_derivative": true,
+      "display_sha256": "a4cc06417bd1daad8412bd6a4037c2926938a266f789b7040f3efa6c5ad35f9c"
+    },
+    {
+      "id": "N119",
+      "title": "她回头把这一刻分给镜头外的人",
+      "path": "site/assets/works/round8/N119.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "她回头把这一刻分给镜头外的人",
+      "display_derivative": true,
+      "display_sha256": "ef84e5027bf83467d453d755c30001bb22fb0de00dad8ce7b35408416c39b22b"
+    },
+    {
+      "id": "N120",
+      "title": "蓝天下最后只剩一个小白点",
+      "path": "site/assets/works/round8/N120.webp",
+      "status": "用户通过 · 公开作品",
+      "caption": "蓝天下最后只剩一个小白点",
+      "display_derivative": true,
+      "display_sha256": "588e2bd6919a90b06197909e2a1c109547935a37131f7d8cde4c291757637780"
     }
   ],
   "archive_items": [

@@ -17,5 +17,5 @@
  }
  window.SiteData={read,json:path=>read('../'+encodeURI(path)),text:path=>read('../'+encodeURI(path),'text')};
  const schedule=window.requestIdleCallback||((fn)=>setTimeout(fn,700));
- window.addEventListener('DOMContentLoaded',()=>schedule(()=>{if(!navigator.connection?.saveData)window.SiteData.json('images/generated/manifest.json?v=20261027-4').catch(()=>{})},{timeout:1500}));
+ window.addEventListener('DOMContentLoaded',()=>schedule(()=>{if(!navigator.connection?.saveData)window.SiteData.json('images/generated/manifest.json?v=20261030-1').catch(()=>{})},{timeout:1500}));
 })();

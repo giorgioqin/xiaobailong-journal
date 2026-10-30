@@ -4,6 +4,49 @@
   "axes": {
     "scene": [
       {
+        "id": "round8-coast",
+        "title": "海边合照",
+        "description": "第八轮 · 海风和两个人的合照",
+        "items": [
+          "N100",
+          "N101",
+          "N101A",
+          "N102",
+          "N103"
+        ]
+      },
+      {
+        "id": "round8-workshop",
+        "title": "风筝工坊",
+        "description": "第八轮 · 一点一点把风筝做好",
+        "items": [
+          "N104",
+          "N105",
+          "N106",
+          "N107",
+          "N108",
+          "N109",
+          "N110",
+          "N111",
+          "N112",
+          "N113",
+          "N114",
+          "N115"
+        ]
+      },
+      {
+        "id": "round8-field",
+        "title": "草地试飞",
+        "description": "第八轮 · 迎风与奔跑",
+        "items": [
+          "N116",
+          "N117",
+          "N118",
+          "N119",
+          "N120"
+        ]
+      },
+      {
         "id": "home",
         "title": "居家时刻",
         "description": "房间 厨房 与窗边的慢日子",
@@ -156,6 +199,49 @@
       }
     ],
     "outfit": [
+      {
+        "id": "round8-travel",
+        "title": "雾蓝海边外套",
+        "description": "海边合照",
+        "items": [
+          "N100",
+          "N101",
+          "N101A",
+          "N102",
+          "N103"
+        ]
+      },
+      {
+        "id": "round8-craft",
+        "title": "靛蓝工坊短褂",
+        "description": "手作风筝",
+        "items": [
+          "N104",
+          "N105",
+          "N106",
+          "N107",
+          "N108",
+          "N109",
+          "N110",
+          "N111",
+          "N112",
+          "N113",
+          "N114",
+          "N115"
+        ]
+      },
+      {
+        "id": "round8-outdoor",
+        "title": "浅黄外套与背带裤",
+        "description": "草地试飞",
+        "items": [
+          "N116",
+          "N117",
+          "N118",
+          "N119",
+          "N120"
+        ]
+      },
       {
         "id": "dress",
         "title": "连衣裙",

@@ -1,7 +1,7 @@
 /* Scene and wardrobe drawers  Current works remain separate from historical edits */
-let workAxis='scene',workTaxonomy=null,openWorkGroup={scene:'home',outfit:'dress'};
+let workAxis='scene',workTaxonomy=null,openWorkGroup={scene:'round8-coast',outfit:'round8-travel'};
 let taxonomyReady;
-function loadTaxonomy(){return taxonomyReady ||= SiteData.json('site/assets/work-taxonomy-v062.json?v=20261027-4').then(data=>{workTaxonomy=data;return data}).catch(error=>{taxonomyReady=null;throw error})}
+function loadTaxonomy(){return taxonomyReady ||= SiteData.json('site/assets/work-taxonomy-v062.json?v=20261030-1').then(data=>{workTaxonomy=data;return data}).catch(error=>{taxonomyReady=null;throw error})}
 function taxonomyTitle(axis,id){return workTaxonomy?.axes[axis]?.find(g=>g.items.includes(id))?.title||''}
 function currentWorkCard(item){
  const notes=Array.isArray(item.review)?item.review:[];

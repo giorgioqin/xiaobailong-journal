@@ -99,7 +99,7 @@ openDoc=async function(file){
 async function renderHomeSelection(){
  const host=document.querySelector('#home-selection');if(!host||host.dataset.ready)return;
  try{
-  const data=await jsonResource('images/generated/manifest.json?v=20261029-4');
+  const data=await jsonResource('images/generated/manifest.json?v=20261030-1');
   const choices=[['N21','象牙毛绒晨光'],['N32','纸伞舞步'],['N36','窗前自拍']];
   host.innerHTML=choices.map(([id,label])=>{
    const item=data.items.find(x=>x.id===id);if(!item)return '';
@@ -130,7 +130,7 @@ function paintCurrent(){return window.renderWorkDrawers?.()}
 renderGenerated=async function(){
  try{
   if(journalGallery.length){paintCurrent();return}
-  const data=await jsonResource('images/generated/manifest.json?v=20261029-4');
+  const data=await jsonResource('images/generated/manifest.json?v=20261030-1');
   journalGallery=(data.items||[]).slice().sort((a,b)=>a.id.localeCompare(b.id));journalHistory=data.archive_items||[];paintCurrent();
  }catch(e){document.querySelector('#generated-gallery').innerHTML='<div class="error-state"><p>'+escapeHtml(e.message)+'</p><button class="text-button" data-view="gallery">重新读取 ↗</button></div>'}
 };
@@ -144,7 +144,7 @@ async function renderMemories(){
  try{const chapters=await jsonResource('memories/chapters.json');const sections=['一、她是谁','3. 海南','4. 杭州','6. 如果','7. 家','9. 重要','我们曾经'];host.innerHTML=chapters.map((m,i)=>`<button class="memory-card" data-doc="${escapeHtml(m.source)}" data-memory-heading="${escapeHtml(sections[i])}"><span class="chapter-number">0${i+1}</span><h2>${escapeHtml(m.title)}</h2><p>${escapeHtml(m.summary)}</p><small>${escapeHtml(m.kind)}　阅读来源 ↗</small></button>`).join('');host.dataset.ready='1'}catch(e){host.textContent=e.message}
 }
 function renderPlans(){
- renderPlanCatalog('#round8-plans','planning/round8/public/catalog.json?v=20261029-1');
+ renderPlanCatalog('#round8-plans','planning/round8/public/catalog.json?v=20261030-1');
  document.querySelectorAll('.previous-plan-list').forEach(folder=>{
   const load=()=>{if(folder.open){const host=folder.querySelector('.plan-grid');if(host)renderPlanCatalog('#'+host.id,'planning/'+host.id.replace('-plans','')+'/catalog.json')}};
   if(!folder.dataset.lazyBound){folder.addEventListener('toggle',load);folder.dataset.lazyBound='1'}load();
